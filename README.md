@@ -537,6 +537,11 @@
 `x-apple.systempreferences:com.apple.Keyboard-Settings.extension`
 \
 \
+**Keyboard > Spotlight**
+\
+`x-apple.systempreferences:com.apple.Keyboard-Settings.extension?Spotlight`
+\
+\
 **Keyboard > Function keys**
 \
 `x-apple.systempreferences:com.apple.Keyboard-Settings.extension?FunctionKeys`
@@ -545,11 +550,6 @@
 **Keyboard > Modifier keys**
 \
 `x-apple.systempreferences:com.apple.Keyboard-Settings.extension?ModifierKeys`
-\
-\
-**Keyboard > Spotlight**
-\
-`x-apple.systempreferences:com.apple.Keyboard-Settings.extension?Spotlight`
 \
 \
 **Keyboard > Text Input > Edit (set smart quotes, smart dashes, spell checking, auto-correction etc)g**
