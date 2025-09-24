@@ -35,7 +35,7 @@
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
 \
 \
-**Wi-Fi > `i` (current network details)**
+**Wi-Fi > Info button (current network details)**
 \
 `x-apple.systempreferences:com.apple.wifi-settings-extension?NetworkDetails`
 - or
