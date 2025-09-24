@@ -291,6 +291,11 @@
 `x-apple.systempreferences:com.apple.Displays-Settings.extension`
 \
 \
+**Displays > Advanced (toggle "Show resolutions as list" etc)
+\
+`x-apple.systempreferences:com.apple.Displays-Settings.extension?advancedSection`
+\
+\
 **Spotlight**
 \
 `x-apple.systempreferences:com.apple.Spotlight-Settings.extension`
