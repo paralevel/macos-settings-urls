@@ -1,4 +1,4 @@
-# Settings URL schemes for macOS 26
+# Settings URL schemes for macOS 26 Tahoe
 
 **Apple Account**
 \
