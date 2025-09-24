@@ -1,4 +1,4 @@
-# System settings URL schemes for macOS 26
+# Settings URL schemes for macOS 26
 
 **Apple Account**
 \
