@@ -35,7 +35,7 @@
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
 \
 \
-**Wi-Fi > Info button (current network details)**
+**Wi-Fi > Info button** (current network details)
 \
 `x-apple.systempreferences:com.apple.wifi-settings-extension?NetworkDetails`
 - or
@@ -61,7 +61,7 @@
 `x-apple.systempreferences:com.apple.Network-Settings.extension`
 \
 \
-**Network > Wi-Fi (not identical to the page that opens when you manually navigate to Network > Wi-Fi)**
+**Network > Wi-Fi** (not identical to the page that opens when you manually navigate to Network > Wi-Fi)
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?Wi-Fi`
 \
@@ -291,7 +291,7 @@
 `x-apple.systempreferences:com.apple.Displays-Settings.extension`
 \
 \
-**Displays > Advanced (toggle "Show resolutions as list" etc)**
+**Displays > Advanced** (toggle "Show resolutions as list" etc)
 \
 `x-apple.systempreferences:com.apple.Displays-Settings.extension?advancedSection`
 \
@@ -331,12 +331,12 @@
 `x-apple.systempreferences:com.apple.Sound-Settings.extension`
 \
 \
-**Sound > Output (tab)**
+**Sound > Output** (tab)
 \
 `x-apple.systempreferences:com.apple.Sound-Settings.extension?output`
 \
 \
-**Sound > Input (tab)**
+**Sound > Input** (tab)
 \
 `x-apple.systempreferences:com.apple.Sound-Settings.extension?input`
 \
@@ -482,7 +482,7 @@
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_AppleIntelligenceReport`
 \
 \
-**Privacy & Security > Security (section)**
+**Privacy & Security > Security** (section)
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Security`
 \
@@ -557,7 +557,7 @@
 `x-apple.systempreferences:com.apple.Keyboard-Settings.extension?ModifierKeys`
 \
 \
-**Keyboard > Text Input > Edit (set smart quotes, smart dashes, spell checking, auto-correction etc)g**
+**Keyboard > Text Input > Edit** (set smart quotes, smart dashes, spell checking, auto-correction etc)
 \
 `x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources`
 \
