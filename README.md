@@ -38,16 +38,18 @@
 **Wi-Fi > Info button** (current network details)
 \
 `x-apple.systempreferences:com.apple.wifi-settings-extension?NetworkDetails`
-- or
-
+\
+&emsp;or
+\
 `x-apple.systempreferences:com.apple.wifi-settings-extension?loadNetworkDetailsUI`
 \
 \
 **Wi-Fi > Advanced**
 \
 `x-apple.systempreferences:com.apple.wifi-settings-extension?Advanced`
-- or
-
+\
+&emsp;or
+\
 `x-apple.systempreferences:com.apple.wifi-settings-extension?loadAdvancedUI`
 \
 \
@@ -359,16 +361,18 @@
 **Privacy & Security**
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension`
-- or
-
+\
+&emsp;or
+\
 `x-apple.systempreferences:com.apple.settings`
 \
 \
 **Privacy & Security > Privacy > Location Services**
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Location`
-- or
-
+\
+&emsp;or
+\
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_LocationServices`
 \
 \
