@@ -362,16 +362,8 @@
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension`
 \
-&emsp;or
-\
-`x-apple.systempreferences:com.apple.settings`
-\
 \
 **Privacy & Security > Privacy > Location Services**
-\
-`x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Location`
-\
-&emsp;or
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_LocationServices`
 \
