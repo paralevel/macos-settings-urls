@@ -55,7 +55,7 @@ ___Apple Account > iCloud > Hide My Email___
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
 \
 \
-___Wi-Fi > Info button (current network details)___
+___Wi-Fi > Info button___ _(current network details)_
 \
 `x-apple.systempreferences:com.apple.wifi-settings-extension?NetworkDetails`
 \
@@ -75,7 +75,7 @@ ___Network___
 `x-apple.systempreferences:com.apple.Network-Settings.extension`
 \
 \
-___Network > Wi-Fi (not identical to the page that opens when you manually navigate to Network > Wi-Fi)___
+___Network > Wi-Fi___ _(not identical to the page that opens when you manually navigate to Network > Wi-Fi)_
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?Wi-Fi`
 \
@@ -305,7 +305,7 @@ ___Displays___
 `x-apple.systempreferences:com.apple.Displays-Settings.extension`
 \
 \
-___Displays > Advanced (toggle "Show resolutions as list" etc)___
+___Displays > Advanced___ _(toggle "Show resolutions as list" etc)_
 \
 `x-apple.systempreferences:com.apple.Displays-Settings.extension?advancedSection`
 \
@@ -565,7 +565,7 @@ ___Keyboard > Modifier keys___
 `x-apple.systempreferences:com.apple.Keyboard-Settings.extension?ModifierKeys`
 \
 \
-___Keyboard > Text Input > Edit (set smart quotes, smart dashes, spell checking, auto-correction etc)___
+___Keyboard > Text Input > Edit___ _(set smart quotes, smart dashes, spell checking, auto-correction etc)_
 \
 `x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources`
 \
