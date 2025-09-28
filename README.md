@@ -54,6 +54,12 @@ ___Apple Account > iCloud > Manage > Manage Storage > Change Storage Plan___
 \
 \
 \
+___Apple Account > iCloud > See All > Saved to iCloud___
+\
+`x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/SHOW_ALL_APPS`
+\
+\
+\
 ___Apple Account > iCloud > Advanced Data Protection___
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME`
