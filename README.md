@@ -1,5 +1,5 @@
 # Settings URL schemes for macOS 26 Tahoe
-
+\
 ___Apple Account___
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings`
