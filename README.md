@@ -90,9 +90,45 @@ ___Network___
 \
 \
 \
-___Network > Wi-Fi___ _(not identical to the page that opens when you manually navigate to Network > Wi-Fi)_
+___Network > current network > TCP/IP___
 \
-`x-apple.systempreferences:com.apple.Network-Settings.extension?Wi-Fi`
+`x-apple.systempreferences:com.apple.Network-Settings.extension?TCP/IP`
+\
+\
+\
+___Network > current network > DNS___
+\
+`x-apple.systempreferences:com.apple.Network-Settings.extension?DNS`
+\
+\
+\
+___Network > current network > WINS___
+\
+`x-apple.systempreferences:com.apple.Network-Settings.extension?WINS`
+\
+\
+\
+___Network > current network > 802.1X___
+\
+`x-apple.systempreferences:com.apple.Network-Settings.extension?802.1X`
+\
+\
+\
+___Network > current network > Proxies___
+\
+`x-apple.systempreferences:com.apple.Network-Settings.extension?Proxies`
+\
+\
+\
+___Network > current network > Hardware___
+\
+`x-apple.systempreferences:com.apple.Network-Settings.extension?Hardware`
+\
+\
+\
+___Network > Other Services > Thunderbolt Bridge___
+\
+`x-apple.systempreferences:com.apple.Network-Settings.extension?Bridge`
 \
 \
 \
