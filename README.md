@@ -660,7 +660,7 @@ ___Privacy & Security > Security > Advanced___
 \
 \
 \
-___Touch ID & Prefs___
+___Touch ID & Password___
 \
 `x-apple.systempreferences:com.apple.Touch-ID-Settings.extension`
 \
