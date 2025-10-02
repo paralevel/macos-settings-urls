@@ -636,7 +636,7 @@ ___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Apple Intelligence Repor
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Security (section)___
+___<sub><sup>PRIVACY & SECURITY ></sup></sub> Security___ _(section)_
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Security`
 \
