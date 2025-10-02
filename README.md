@@ -12,7 +12,7 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub> Personal Information___
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Sign-in & Security___
+___<sub><sup>APPLE ACCOUNT ></sup></sub> Sign-In & Security___
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?loadPasswordSecurityUI`
 \
