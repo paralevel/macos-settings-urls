@@ -6,67 +6,67 @@ ___Apple Account___
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Personal Information___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ ___Personal Information___
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?loadPersonalInfoUI`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Sign-In & Security___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ ___Sign-In & Security___
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?loadPasswordSecurityUI`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Payment & Shipping___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ ___Payment & Shipping___
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?loadPaymentUI`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Family___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ ___Family___
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?family`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ ___iCloud___
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?iCloud`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Manage… > Manage Storage___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ ___iCloud > Manage… > Manage Storage___
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?path=STORAGE_AND_BACKUP`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Manage… > Manage Storage > Backups___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ ___iCloud > Manage… > Manage Storage > Backups___
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Manage… > Manage Storage > Change Storage Plan___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ ___iCloud > Manage… > Manage Storage > Change Storage Plan___
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?path=STORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > See All > Saved to iCloud___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ ___iCloud > See All > Saved to iCloud___
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/SHOW_ALL_APPS`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Advanced Data Protection___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ ___iCloud > Advanced Data Protection___
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Hide My Email___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ ___iCloud > Hide My Email___
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
 \
@@ -78,13 +78,13 @@ ___Wi-Fi___
 \
 \
 \
-___<sub><sup>WI-FI ></sup></sub>___ _current network_ ___> Details…___
+__<sub><sup>WI-FI ></sup></sub>__ current network_ ___> Details…___
 \
 `x-apple.systempreferences:com.apple.wifi-settings-extension?NetworkDetails`
 \
 \
 \
-___<sub><sup>WI-FI ></sup></sub> Advanced…___
+__<sub><sup>WI-FI ></sup></sub>__ ___Advanced…___
 \
 `x-apple.systempreferences:com.apple.wifi-settings-extension?Advanced`
 \
@@ -102,43 +102,43 @@ ___Network___
 \
 \
 \
-___<sub><sup>NETWORK ></sup></sub>___ _current network_ ___> TCP/IP___
+__<sub><sup>NETWORK ></sup></sub>__ _current network_ ___> TCP/IP___
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?TCP/IP`
 \
 \
 \
-___<sub><sup>NETWORK ></sup></sub>___ _current network_ ___> DNS___
+__<sub><sup>NETWORK ></sup></sub>__ _current network_ ___> DNS___
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?DNS`
 \
 \
 \
-___<sub><sup>NETWORK ></sup></sub>___ _current network_ ___> WINS___
+__<sub><sup>NETWORK ></sup></sub>__ _current network_ ___> WINS___
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?WINS`
 \
 \
 \
-___<sub><sup>NETWORK ></sup></sub>___ _current network_ ___> 802.1X___
+__<sub><sup>NETWORK ></sup></sub>__ _current network_ ___> 802.1X___
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?802.1X`
 \
 \
 \
-___<sub><sup>NETWORK ></sup></sub>___ _current network_ ___> Proxies___
+__<sub><sup>NETWORK ></sup></sub>__ _current network_ ___> Proxies___
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?Proxies`
 \
 \
 \
-___<sub><sup>NETWORK ></sup></sub>___ _current network_ ___> Hardware___
+__<sub><sup>NETWORK ></sup></sub>__ _current network_ ___> Hardware___
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?Hardware`
 \
 \
 \
-___<sub><sup>NETWORK ></sup></sub> Other Services > Thunderbolt Bridge___
+__<sub><sup>NETWORK ></sup></sub>__ ___Other Services > Thunderbolt Bridge___
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?Bridge`
 \
@@ -150,7 +150,7 @@ ___Battery___
 \
 \
 \
-___<sub><sup>BATTERY ></sup></sub> Battery Health >___ __&#9432;__
+__<sub><sup>BATTERY ></sup></sub>__ ___Battery Health >___ __&#9432;__
 \
 `x-apple.systempreferences:com.apple.Battery-Settings.extension?batteryhealth`
 \
@@ -162,85 +162,85 @@ ___General___
 \
 \
 \
-___<sub><sup>GENERAL ></sup></sub> About___
+__<sub><sup>GENERAL ></sup></sub>__ ___About___
 \
 `x-apple.systempreferences:com.apple.SystemProfiler.AboutExtension`
 \
 \
 \
-___<sub><sup>GENERAL ></sup></sub> Software Update___
+__<sub><sup>GENERAL ></sup></sub>__ ___Software Update___
 \
 `x-apple.systempreferences:com.apple.Software-Update-Settings.extension`
 \
 \
 \
-___<sub><sup>GENERAL ></sup></sub> Storage___
+__<sub><sup>GENERAL ></sup></sub>__ ___Storage___
 \
 `x-apple.systempreferences:com.apple.settings.Storage`
 \
 \
 \
-___<sub><sup>GENERAL ></sup></sub> AppleCare & Warranty___
+__<sub><sup>GENERAL ></sup></sub>__ ___AppleCare & Warranty___
 \
 `x-apple.systempreferences:com.apple.Coverage-Settings.extension`
 \
 \
 \
-___<sub><sup>GENERAL ></sup></sub> AirDrop & Handoff___
+__<sub><sup>GENERAL ></sup></sub>__ ___AirDrop & Handoff___
 \
 `x-apple.systempreferences:com.apple.AirDrop-Handoff-Settings.extension`
 \
 \
 \
-___<sub><sup>GENERAL ></sup></sub> AutoFill & Passwords___
+__<sub><sup>GENERAL ></sup></sub>__ ___AutoFill & Passwords___
 \
 `x-apple.systempreferences:com.apple.Passwords-Settings.extension`
 \
 \
 \
-___<sub><sup>GENERAL ></sup></sub> Date & Time___
+__<sub><sup>GENERAL ></sup></sub>__ ___Date & Time___
 \
 `x-apple.systempreferences:com.apple.Date-Time-Settings.extension`
 \
 \
 \
-___<sub><sup>GENERAL ></sup></sub> Language & Region___
+__<sub><sup>GENERAL ></sup></sub>__ ___Language & Region___
 \
 `x-apple.systempreferences:com.apple.Localization-Settings.extension`
 \
 \
 \
-___<sub><sup>GENERAL ></sup></sub> Login Items & Extensions___
+__<sub><sup>GENERAL ></sup></sub>__ ___Login Items & Extensions___
 \
 `x-apple.systempreferences:com.apple.LoginItems-Settings.extension`
 \
 \
 \
-___<sub><sup>GENERAL ></sup></sub> Sharing___
+__<sub><sup>GENERAL ></sup></sub>__ ___Sharing___
 \
 `x-apple.systempreferences:com.apple.Sharing-Settings.extension`
 \
 \
 \
-___<sub><sup>GENERAL ></sup></sub> Startup Disk___
+__<sub><sup>GENERAL ></sup></sub>__ ___Startup Disk___
 \
 `x-apple.systempreferences:com.apple.Startup-Disk-Settings.extension`
 \
 \
 \
-___<sub><sup>GENERAL ></sup></sub> Time Machine___
+__<sub><sup>GENERAL ></sup></sub>__ ___Time Machine___
 \
 `x-apple.systempreferences:com.apple.Time-Machine-Settings.extension`
 \
 \
 \
-___<sub><sup>GENERAL ></sup></sub> Device Management___
+__<sub><sup>GENERAL ></sup></sub>__ ___Device Management___
 \
 `x-apple.systempreferences:com.apple.Profiles-Settings.extension`
 \
 \
 \
-___<sub><sup>GENERAL ></sup></sub> Transfer or Reset___
+__<sub><sup>GENERAL ></sup></sub>__ ___Transfer or Reset___
 \
 `x-apple.systempreferences:com.apple.Transfer-Reset-Settings.extension`
 \
@@ -252,133 +252,133 @@ ___Accessibility___
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> VoiceOver___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___VoiceOver___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?VoiceOver`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Zoom___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Zoom___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Zoom`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Hover Text___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Hover Text___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?HoverText`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Display___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Display___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Display`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Motion___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Motion___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Motion`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Read & Speak___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Read & Speak___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?SpokenContent`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Audio Descriptions___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Audio Descriptions___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Descriptions`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Hearing Devices___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Hearing Devices___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Hearing`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Audio___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Audio___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Audio`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> RTT___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___RTT___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?RTT`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Captions___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Captions___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Captions`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Live Captions___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Live Captions___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?LiveCaptions`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Name Recognition___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Name Recognition___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?NameRecognition`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Voice Control___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Voice Control___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?VoiceControl`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Keyboard___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Keyboard___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Keyboard`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Pointer Control___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Pointer Control___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?PointerControl`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Switch Control___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Switch Control___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?SwitchControl`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Live Speech___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Live Speech___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?LiveSpeec`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Personal Voice___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Personal Voice___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?PersonalVoice`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Vocal Shortcuts___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Vocal Shortcuts___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?VocalShortcuts`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Siri___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Siri___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Siri`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Shortcut___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ ___Shortcut___
 \
 `x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Shortcut`
 \
@@ -414,7 +414,7 @@ ___Displays___
 \
 \
 \
-___<sub><sup>DISPLAYS ></sup></sub> Advanced…___ _(toggle "Show resolutions as list" etc)_
+__<sub><sup>DISPLAYS ></sup></sub>__ ___Advanced…___ _(toggle "Show resolutions as list" etc)_
 \
 `x-apple.systempreferences:com.apple.Displays-Settings.extension?advancedSection`
 \
@@ -426,7 +426,7 @@ ___Spotlight___
 \
 \
 \
-___<sub><sup>SPOTLIGHT ></sup></sub> Search Privacy___
+__<sub><sup>SPOTLIGHT ></sup></sub>__ ___Search Privacy___
 \
 `x-apple.systempreferences:com.apple.Spotlight-Settings.extension?privacy`
 \
@@ -438,13 +438,13 @@ ___Wallpaper___
 \
 \
 \
-___<sub><sup>WALLPAPER ></sup></sub> Screen Saver___
+__<sub><sup>WALLPAPER ></sup></sub>__ ___Screen Saver___
 \
 `x-apple.systempreferences:com.apple.Wallpaper-Settings.extension?ScreenSaver`
 \
 \
 \
-___<sub><sup>WALLPAPER ></sup></sub> Clock Appearance___
+__<sub><sup>WALLPAPER ></sup></sub>__ ___Clock Appearance___
 \
 `x-apple.systempreferences:com.apple.Wallpaper-Settings.extension?ClockAppearance`
 \
@@ -462,13 +462,13 @@ ___Sound___
 \
 \
 \
-___<sub><sup>SOUND ></sup></sub> Output___ _(tab)_
+__<sub><sup>SOUND ></sup></sub>__ ___Output___ _(tab)_
 \
 `x-apple.systempreferences:com.apple.Sound-Settings.extension?output`
 \
 \
 \
-___<sub><sup>SOUND ></sup></sub> Input___ _(tab)_
+__<sub><sup>SOUND ></sup></sub>__ ___Input___ _(tab)_
 \
 `x-apple.systempreferences:com.apple.Sound-Settings.extension?input`
 \
@@ -498,169 +498,169 @@ ___Privacy & Security___
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Location Services___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Location Services___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_LocationServices`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Location Services > System Services___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Location Services > System Services___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_SystemServices`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Calendars___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Calendars___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Calendars`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Contacts___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Contacts___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Contacts`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Files & Folders___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Files & Folders___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_FilesAndFolders`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Home Accessories___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Home Accessories___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_HomeKit`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Media & Apple Music___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Media & Apple Music___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Media`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Passkeys Access for Web Browsers___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Passkeys Access for Web Browsers___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_PasskeyAccess`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Photos___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Photos___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Photos`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Reminders___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Reminders___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Reminders`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Bluetooth___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Bluetooth___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Bluetooth`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Acessibility___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Acessibility___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Accessibility`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Automation___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Automation___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Automation`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Camera___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Camera___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Camera`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Focus___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Focus___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Focus`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Microphone___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Microphone___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Microphone`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Motion & Fitness___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Motion & Fitness___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Motion`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Remote Desktop___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Remote Desktop___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_RemoteDesktop`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Speech Recognition___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Speech Recognition___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_SpeechRecognition`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Blocked Contacts___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Blocked Contacts___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Blocklist`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Analytics & Improvements___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Analytics & Improvements___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Analytics`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Apple Advertising___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Apple Advertising___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Advertising`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Privacy > Apple Intelligence Report___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Privacy > Apple Intelligence Report___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_AppleIntelligenceReport`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Security___ _(section)_
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Security___ _(section)_
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Security`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Security > FileVault___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Security > FileVault___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?FileVault`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Security > Accessories___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Security > Accessories___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Accessories`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Security > Lockdown Mode___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Security > Lockdown Mode___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?LockdownMode`
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub> Security > Advanced___
+__<sub><sup>PRIVACY & SECURITY ></sup></sub>__ ___Security > Advanced___
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Advanced`
 \
@@ -708,31 +708,31 @@ ___Keyboard___
 \
 \
 \
-___<sub><sup>KEYBOARD ></sup></sub> Spotlight___
+__<sub><sup>KEYBOARD ></sup></sub>__ ___Spotlight___
 \
 `x-apple.systempreferences:com.apple.Keyboard-Settings.extension?Spotlight`
 \
 \
 \
-___<sub><sup>KEYBOARD ></sup></sub> Function keys___
+__<sub><sup>KEYBOARD ></sup></sub>__ ___Function keys___
 \
 `x-apple.systempreferences:com.apple.Keyboard-Settings.extension?FunctionKeys`
 \
 \
 \
-___<sub><sup>KEYBOARD ></sup></sub> Modifier keys___
+__<sub><sup>KEYBOARD ></sup></sub>__ ___Modifier keys___
 \
 `x-apple.systempreferences:com.apple.Keyboard-Settings.extension?ModifierKeys`
 \
 \
 \
-___<sub><sup>KEYBOARD ></sup></sub> Text Input > Edit…___ _(set smart quotes, smart dashes, spell checking, auto-correction etc)_
+__<sub><sup>KEYBOARD ></sup></sub>__ ___Text Input > Edit…___ _(set smart quotes, smart dashes, spell checking, auto-correction etc)_
 \
 `x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources`
 \
 \
 \
-___<sub><sup>KEYBOARD ></sup></sub> Text Input > Text Replacements___
+__<sub><sup>KEYBOARD ></sup></sub>__ ___Text Input > Text Replacements___
 \
 `x-apple.systempreferences:com.apple.Keyboard-Settings.extension?TextReplacements`
 \
