@@ -492,13 +492,13 @@ _Sound_
 \
 \
 \
-___<sub><sup>SOUND ></sup></sub>___ _Output \[tab\]_
+___<sub><sup>SOUND ></sup></sub>___ _Output (tab)_
 \
 `x-apple.systempreferences:com.apple.Sound-Settings.extension?output`
 \
 \
 \
-___<sub><sup>SOUND ></sup></sub>___ _Input \[tab\]_
+___<sub><sup>SOUND ></sup></sub>___ _Input (tab)_
 \
 `x-apple.systempreferences:com.apple.Sound-Settings.extension?input`
 \
