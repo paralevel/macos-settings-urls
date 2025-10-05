@@ -558,15 +558,15 @@ ___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > Reminders_
 \
 \
 \
-___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > Bluetooth_
-\
-`x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Bluetooth`
-\
-\
-\
-___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > Acessibility_
+___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > Accessibility_
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Accessibility`
+\
+\
+\
+___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > App Management_
+\
+`x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_AppBundles`
 \
 \
 \
@@ -576,15 +576,33 @@ ___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > Automation_
 \
 \
 \
+___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > Bluetooth_
+\
+`x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Bluetooth`
+\
+\
+\
 ___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > Camera_
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Camera`
 \
 \
 \
+___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > Developer Tools_
+\
+`x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_DevTools`
+\
+\
+\
 ___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > Focus_
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Focus`
+\
+\
+\
+___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > Input Monitoring_
+\
+`x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_ListenEvent`
 \
 \
 \
@@ -606,9 +624,21 @@ ___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > Remote Desktop_
 \
 \
 \
+___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > Screen & System Audio Recording_
+\
+`x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_AudioCapture`
+\
+\
+\
 ___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > Speech Recognition_
 \
 `x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_SpeechRecognition`
+\
+\
+\
+___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Privacy > Sensitive Content Warning_
+\
+`x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_NudityDetection`
 \
 \
 \
