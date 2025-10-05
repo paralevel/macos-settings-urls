@@ -156,6 +156,12 @@ ___<sub><sup>BATTERY ></sup></sub>___ _Battery Health >_ __&#9432;__
 \
 \
 \
+___<sub><sup>BATTERY ></sup></sub>___ > _Options_
+\
+`x-apple.systempreferences:com.apple.Battery-Settings.extension?options`
+\
+\
+\
 _General_
 \
 `x-apple.systempreferences:com.apple.systempreferences.GeneralSettings`
@@ -207,6 +213,12 @@ ___<sub><sup>GENERAL ></sup></sub>___ _Date & Time_
 ___<sub><sup>GENERAL ></sup></sub>___ _Language & Region_
 \
 `x-apple.systempreferences:com.apple.Localization-Settings.extension`
+\
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Language & Region > Translation Languages_
+\
+`x-apple.systempreferences:com.apple.Localization-Settings.extension?translation`
 \
 \
 \
@@ -396,6 +408,12 @@ _Menu Bar_
 \
 \
 \
+___<sub><sup>MENU BAR ></sup></sub>___ _Clock Options_
+\
+`x-apple.systempreferences:com.apple.ControlCenter-Settings.extension?Clock`
+\
+\
+\
 _Apple Intelligence & Siri_
 \
 `x-apple.systempreferences:com.apple.Siri-Settings.extension`
@@ -405,6 +423,18 @@ _Apple Intelligence & Siri_
 _Desktop & Dock_
 \
 `x-apple.systempreferences:com.apple.Desktop-Settings.extension`
+\
+\
+\
+___<sub><sup>DESKTOP & DOCK ></sup></sub>___ _Hot Corners_
+\
+`x-apple.systempreferences:com.apple.Desktop-Settings.extension?HotCorners`
+\
+\
+\
+___<sub><sup>DESKTOP & DOCK ></sup></sub>___ _Shortcuts_
+\
+`x-apple.systempreferences:com.apple.Desktop-Settings.extension?Shortcuts`
 \
 \
 \
