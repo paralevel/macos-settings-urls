@@ -50,11 +50,6 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > See All > Saved to iCloud_
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/SHOW_ALL_APPS`
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Advanced Data Protection_
-\
-`x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME`
-\
-\
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Private Relay_
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/accountDetails?path=InternetPrivacy`
@@ -63,6 +58,11 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Private Relay_
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Hide My Email_
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
+\
+\
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Advanced Data Protection_
+\
+`x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME`
 \
 \
 \
