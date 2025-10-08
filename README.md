@@ -15,6 +15,11 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security_
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?loadPasswordSecurityUI`
 \
 \
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Legacy Contact_
+\
+`x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/accountDetails?root=APPLE_ACCOUNT&path=accountBeneficiary`
+\
+\
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Payment & Shipping_
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?loadPaymentUI`
