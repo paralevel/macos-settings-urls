@@ -396,7 +396,7 @@ _Displays_
 `x-apple.systempreferences:com.apple.Displays-Settings.extension`
 \
 \
-___<sub><sup>DISPLAYS ></sup></sub>___ _Advanced… <sup>(toggle "Show resolutions as list" etc)</sup>_
+___<sub><sup>DISPLAYS ></sup></sub>___ _Advanced… \[toggle "Show resolutions as list" etc]_
 \
 `x-apple.systempreferences:com.apple.Displays-Settings.extension?advancedSection`
 \
@@ -696,7 +696,7 @@ ___<sub><sup>KEYBOARD ></sup></sub>___ _Modifier keys_
 `x-apple.systempreferences:com.apple.Keyboard-Settings.extension?ModifierKeys`
 \
 \
-___<sub><sup>KEYBOARD ></sup></sub>___ _Text Input > Edit… <sup>(set smart quotes, smart dashes, spell checking, auto-correction etc)</sup>_
+___<sub><sup>KEYBOARD ></sup></sub>___ _Text Input > Edit… \[set smart quotes, smart dashes, spell checking, auto-correction etc]_
 \
 `x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources`
 \
