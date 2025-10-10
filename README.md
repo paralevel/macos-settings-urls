@@ -802,12 +802,12 @@ ___<sub><sup>USERS & GROUPS ></sup></sub>___ _(current user)_ > &#9432;
 `x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo`
 \
 \
-___<sub><sup>USERS & GROUPS ></sup></sub>___ _(current user)_ > Password > Change…_
+___<sub><sup>USERS & GROUPS ></sup></sub>___ _(current user) > Password > Change…_
 \
 `x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?changepassword`
 \
 \
-___<sub><sup>USERS & GROUPS ></sup></sub>___ _(full name or short name)_ > &#9432;
+___<sub><sup>USERS & GROUPS ></sup></sub>___ _(other user)_ > &#9432;
 \
 `x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:full_name_or_short_name` <sub>(not neccessary to URL encode space characters)</sub>
 \
