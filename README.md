@@ -761,7 +761,3 @@ _Game Controllers_
 _Printers & Scanners_
 \
 `x-apple.systempreferences:com.apple.preference.printfax`
-\
-\
-\
-\
