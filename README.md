@@ -87,7 +87,7 @@ _Wi-Fi_
 `x-apple.systempreferences:com.apple.wifi-settings-extension`
 \
 \
-___<sub><sup>WI-FI ></sup></sub>___ _current network > Details…_
+___<sub><sup>WI-FI ></sup></sub>___ _(current network) > Details…_
 \
 `x-apple.systempreferences:com.apple.wifi-settings-extension?NetworkDetails`
 \
@@ -111,32 +111,32 @@ _Network_
 `x-apple.systempreferences:com.apple.Network-Settings.extension`
 \
 \
-___<sub><sup>NETWORK ></sup></sub>___ _current network > TCP/IP_
+___<sub><sup>NETWORK ></sup></sub>___ _(current network) > TCP/IP_
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?TCP/IP`
 \
 \
-___<sub><sup>NETWORK ></sup></sub>___ _current network > DNS_
+___<sub><sup>NETWORK ></sup></sub>___ _(current network) > DNS_
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?DNS`
 \
 \
-___<sub><sup>NETWORK ></sup></sub>___ _current network > WINS_
+___<sub><sup>NETWORK ></sup></sub>___ _(current network) > WINS_
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?WINS`
 \
 \
-___<sub><sup>NETWORK ></sup></sub>___ _current network > 802.1X_
+___<sub><sup>NETWORK ></sup></sub>___ _(current network) > 802.1X_
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?802.1X`
 \
 \
-___<sub><sup>NETWORK ></sup></sub>___ _current network > Proxies_
+___<sub><sup>NETWORK ></sup></sub>___ _(current network) > Proxies_
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?Proxies`
 \
 \
-___<sub><sup>NETWORK ></sup></sub>___ _current network > Hardware_
+___<sub><sup>NETWORK ></sup></sub>___ _(current network) > Hardware_
 \
 `x-apple.systempreferences:com.apple.Network-Settings.extension?Hardware`
 \
@@ -223,6 +223,11 @@ ___<sub><sup>GENERAL ></sup></sub>___ _Language & Region_
 ___<sub><sup>GENERAL ></sup></sub>___ _Language & Region > Translation Languages_
 \
 `x-apple.systempreferences:com.apple.Localization-Settings.extension?translation`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Language & Region > Translation Languages > Translation & Privacy_
+\
+`x-apple.systempreferences:com.apple.Localization-Settings.extension?translation-privacy`
 \
 \
 ___<sub><sup>GENERAL ></sup></sub>___ _Login Items & Extensions_
@@ -790,6 +795,26 @@ _Touch ID & Password_
 _Users & Groups_
 \
 `x-apple.systempreferences:com.apple.Users-Groups-Settings.extension`
+\
+\
+___<sub><sup>USERS & GROUPS ></sup></sub>___ _(current user)_ > &#9432;
+\
+`x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo`
+\
+\
+___<sub><sup>USERS & GROUPS ></sup></sub>___ _(current user)_ > Password > Change…_
+\
+`x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?changepassword`
+\
+\
+___<sub><sup>USERS & GROUPS ></sup></sub>___ _(full name or short name)_ > &#9432;
+\
+`x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:full_name_or_short_name` <sub>(not neccessary to URL encode space characters)</sub>
+\
+\
+___<sub><sup>USERS & GROUPS ></sup></sub>___ _Guest User >_ &#9432;
+\
+`x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:guest`
 \
 \
 \
