@@ -549,6 +549,41 @@ _Screen Time_
 `x-apple.systempreferences:com.apple.Screen-Time-Settings.extension`
 \
 \
+___<sub><sup>SCREEN TIME ></sup></sub>___ _Notifications <sub>(if App & Website Activity is enabled)</sub>_
+\
+`x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=notifications`
+\
+\
+___<sub><sup>SCREEN TIME ></sup></sub>___ _Pickups <sub>(if App & Website Activity is enabled)</sub>_
+\
+`x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=pickups`
+\
+\
+___<sub><sup>SCREEN TIME ></sup></sub>___ _Downtime <sub>(if App & Website Activity is enabled)</sub>_
+\
+`x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=downtime`
+\
+\
+___<sub><sup>SCREEN TIME ></sup></sub>___ _Screen Distance_
+\
+`x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=screen-distance`
+\
+\
+___<sub><sup>SCREEN TIME ></sup></sub>___ _Communication Limits_
+\
+`x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=communication-limits`
+\
+\
+___<sub><sup>SCREEN TIME ></sup></sub>___ _Communications Safety_
+\
+`x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=communication-safety`
+\
+\
+___<sub><sup>SCREEN TIME ></sup></sub>___ _Content & Privacy_
+\
+`x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=content-and-privacy`
+\
+\
 \
 \
 _Lock Screen_
