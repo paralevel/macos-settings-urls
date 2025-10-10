@@ -70,6 +70,17 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Advanced Data Protection_
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME`
 \
 \
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Media & Purchases_
+\
+`x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?com.apple.AppleMediaServicesUI.SpyglassPurchases`
+\
+\
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign in with Apple_
+\
+`x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?signInWithApple`
+\
+\
+\
 \
 _Wi-Fi_
 \
@@ -87,9 +98,11 @@ ___<sub><sup>WI-FI ></sup></sub>___ _Advanced…_
 \
 \
 \
+\
 _Bluetooth_
 \
 `x-apple.systempreferences:com.apple.BluetoothSettings`
+\
 \
 \
 \
@@ -134,6 +147,7 @@ ___<sub><sup>NETWORK ></sup></sub>___ _Other Services > Thunderbolt Bridge_
 \
 \
 \
+\
 _Battery_
 \
 `x-apple.systempreferences:com.apple.Battery-Settings.extension`
@@ -147,6 +161,7 @@ ___<sub><sup>BATTERY ></sup></sub>___ _Battery Health >_ __&#9432;__
 ___<sub><sup>BATTERY ></sup></sub>___ > _Options_
 \
 `x-apple.systempreferences:com.apple.Battery-Settings.extension?options`
+\
 \
 \
 \
@@ -228,6 +243,7 @@ ___<sub><sup>GENERAL ></sup></sub>___ _Device Management_
 ___<sub><sup>GENERAL ></sup></sub>___ _Transfer or Reset_
 \
 `x-apple.systempreferences:com.apple.Transfer-Reset-Settings.extension`
+\
 \
 \
 \
@@ -352,9 +368,11 @@ ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Shortcut_
 \
 \
 \
+\
 _Appearance_
 \
 `x-apple.systempreferences:com.apple.Appearance-Settings.extension`
+\
 \
 \
 \
@@ -369,9 +387,11 @@ ___<sub><sup>MENU BAR ></sup></sub>___ _Clock Options_
 \
 \
 \
+\
 _Apple Intelligence & Siri_
 \
 `x-apple.systempreferences:com.apple.Siri-Settings.extension`
+\
 \
 \
 \
@@ -391,6 +411,7 @@ ___<sub><sup>DESKTOP & DOCK ></sup></sub>___ _Shortcuts_
 \
 \
 \
+\
 _Displays_
 \
 `x-apple.systempreferences:com.apple.Displays-Settings.extension`
@@ -402,6 +423,7 @@ ___<sub><sup>DISPLAYS ></sup></sub>___ _Advanced… \[toggle "Show resolutions a
 \
 \
 \
+\
 _Spotlight_
 \
 `x-apple.systempreferences:com.apple.Spotlight-Settings.extension`
@@ -410,6 +432,7 @@ _Spotlight_
 ___<sub><sup>SPOTLIGHT ></sup></sub>___ _Search Privacy_
 \
 `x-apple.systempreferences:com.apple.Spotlight-Settings.extension?privacy`
+\
 \
 \
 \
@@ -429,9 +452,11 @@ ___<sub><sup>WALLPAPER ></sup></sub>___ _Clock Appearance_
 \
 \
 \
+\
 _Notifications_
 \
 `x-apple.systempreferences:com.apple.Notifications-Settings.extension`
+\
 \
 \
 \
@@ -451,9 +476,11 @@ ___<sub><sup>SOUND ></sup></sub>___ _Input (tab)_
 \
 \
 \
+\
 _Focus_
 \
 `x-apple.systempreferences:com.apple.Focus-Settings.extension`
+\
 \
 \
 \
@@ -463,9 +490,11 @@ _Screen Time_
 \
 \
 \
+\
 _Lock Screen_
 \
 `x-apple.systempreferences:com.apple.Lock-Screen-Settings.extension`
+\
 \
 \
 \
@@ -640,9 +669,11 @@ ___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Security > Advanced_
 \
 \
 \
+\
 _Touch ID & Password_
 \
 `x-apple.systempreferences:com.apple.Touch-ID-Settings.extension`
+\
 \
 \
 \
@@ -652,9 +683,11 @@ _Users & Groups_
 \
 \
 \
+\
 _Internet Accounts_
 \
 `x-apple.systempreferences:com.apple.Internet-Accounts-Settings.extension`
+\
 \
 \
 \
@@ -664,15 +697,18 @@ _Game Center_
 \
 \
 \
+\
 _iCloud_
 \
 `x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings:icloud`
 \
 \
 \
+\
 _Wallet & Apple Pay_
 \
 `x-apple.systempreferences:com.apple.WalletSettingsExtension`
+\
 \
 \
 \
@@ -707,15 +743,18 @@ ___<sub><sup>KEYBOARD ></sup></sub>___ _Text Input > Text Replacements_
 \
 \
 \
+\
 _Trackpad_
 \
 `x-apple.systempreferences:com.apple.Trackpad-Settings.extension`
 \
 \
 \
+\
 _Game Controllers_
 \
 `x-apple.systempreferences:com.apple.Game-Controller-Settings.extension`
+\
 \
 \
 \
