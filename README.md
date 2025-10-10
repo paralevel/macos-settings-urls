@@ -448,6 +448,11 @@ ___<sub><sup>APPLE INTELLIGENCE & SIRI ></sup></sub>___ _Siri Suggestions & Priv
 `x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions`
 \
 \
+___<sub><sup>APPLE INTELLIGENCE & SIRI ></sup></sub>___ _Siri Suggestions & Privacy > \[app bundle identifier] <sup>(find it with e.g. `osascript -e 'id of app "Application Name"'`)</sup>_
+\
+`x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions&bundleId=bundle_identifier`
+\
+\
 \
 \
 _Desktop & Dock_
