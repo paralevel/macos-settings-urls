@@ -235,6 +235,16 @@ ___<sub><sup>GENERAL ></sup></sub>___ _Time Machine_
 `x-apple.systempreferences:com.apple.Time-Machine-Settings.extension`
 \
 \
+___<sub><sup>GENERAL ></sup></sub>___ _Time Machine > Add Backup Disk_
+\
+`x-apple.systempreferences:com.apple.Time-Machine-Settings.extension?chooseDestination`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Time Machine > Options_
+\
+`x-apple.systempreferences:com.apple.Time-Machine-Settings.extension?options`
+\
+\
 ___<sub><sup>GENERAL ></sup></sub>___ _Device Management_
 \
 `x-apple.systempreferences:com.apple.Profiles-Settings.extension`
@@ -747,6 +757,21 @@ ___<sub><sup>KEYBOARD ></sup></sub>___ _Text Input > Text Replacements_
 _Trackpad_
 \
 `x-apple.systempreferences:com.apple.Trackpad-Settings.extension`
+\
+\
+___<sub><sup>TRACKPAD ></sup></sub>___ _Point & Click (tab)_
+\
+`x-apple.systempreferences:com.apple.Trackpad-Settings.extension?PointAndClick`
+\
+\
+___<sub><sup>TRACKPAD ></sup></sub>___ _Scroll & Zoom (tab)_
+\
+`x-apple.systempreferences:com.apple.Trackpad-Settings.extension?ScrollAndZoom`
+\
+\
+___<sub><sup>TRACKPAD ></sup></sub>___ _More Gestures (tab)_
+\
+`x-apple.systempreferences:com.apple.Trackpad-Settings.extension?MoreGestures`
 \
 \
 \
