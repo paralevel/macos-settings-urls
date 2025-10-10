@@ -180,6 +180,16 @@ ___<sub><sup>GENERAL ></sup></sub>___ _Software Update_
 `x-apple.systempreferences:com.apple.Software-Update-Settings.extension`
 \
 \
+___<sub><sup>GENERAL ></sup></sub>___ _Software Update > Automatic Updates >_ &#9432;
+\
+`x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showAdvancedOptions`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Software Update > Beta Updates >_ &#9432;
+\
+`x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showBetaUpdates` _<sup>(loads slowly)</sup>_
+\
+\
 ___<sub><sup>GENERAL ></sup></sub>___ _Storage_
 \
 `x-apple.systempreferences:com.apple.settings.Storage`
@@ -223,6 +233,36 @@ ___<sub><sup>GENERAL ></sup></sub>___ _Login Items & Extensions_
 ___<sub><sup>GENERAL ></sup></sub>___ _Sharing_
 \
 `x-apple.systempreferences:com.apple.Sharing-Settings.extension`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Sharing > Content & Media > Screen Sharing >_ &#9432;
+\
+`x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_ScreenSharing`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Sharing > Accessories & Internet > Printer Sharing >_ &#9432;
+\
+`x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_PrinterSharing`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Sharing > Accessories & Internet > Internet Sharing >_ &#9432;
+\
+`x-apple.systempreferences:com.apple.Sharing-Settings.extension?Internet`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Sharing > Advanced > Remote Management >_ &#9432;
+\
+`x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_ARDService`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Sharing > Advanced > Remote Login >_ &#9432;
+\
+`x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_RemoteLogin`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Sharing > Advanced > Remote Application Scripting >_ &#9432;
+\
+`x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_RemoteAppleEvent`
 \
 \
 ___<sub><sup>GENERAL ></sup></sub>___ _Startup Disk_
@@ -401,6 +441,11 @@ ___<sub><sup>MENU BAR ></sup></sub>___ _Clock Options_
 _Apple Intelligence & Siri_
 \
 `x-apple.systempreferences:com.apple.Siri-Settings.extension`
+\
+\
+___<sub><sup>APPLE INTELLIGENCE & SIRI ></sup></sub>___ _Siri Suggestions & Privacy_
+\
+`x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions`
 \
 \
 \
