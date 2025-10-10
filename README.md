@@ -230,6 +230,16 @@ ___<sub><sup>GENERAL ></sup></sub>___ _Login Items & Extensions_
 `x-apple.systempreferences:com.apple.LoginItems-Settings.extension`
 \
 \
+___<sub><sup>GENERAL ></sup></sub>___ _Login Items & Extensions > File Providers >_ &#9432;
+\
+`x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.fileprovider-nonui`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Login Items & Extensions > Finder >_ &#9432;
+\
+`x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.finder-quick-actions`
+\
+\
 ___<sub><sup>GENERAL ></sup></sub>___ _Sharing_
 \
 `x-apple.systempreferences:com.apple.Sharing-Settings.extension`
@@ -518,6 +528,11 @@ _Notifications_
 `x-apple.systempreferences:com.apple.Notifications-Settings.extension`
 \
 \
+___<sub><sup>NOTIFICATIONS ></sup></sub>___ _Summarize notifications \[Apple Intelligence must be enabled]_
+\
+`x-apple.systempreferences:com.apple.Notifications-Settings.extension?Summarization`
+\
+\
 \
 \
 _Sound_
@@ -784,11 +799,36 @@ _Internet Accounts_
 `x-apple.systempreferences:com.apple.Internet-Accounts-Settings.extension`
 \
 \
+___<sub><sup>INTERNET ACCOUNTS ></sup></sub>___ _Add Account_
+\
+`x-apple.systempreferences:com.apple.Internet-Accounts-Settings.extension?ADD_ACCOUNT`
+\
+\
 \
 \
 _Game Center_
 \
 `x-apple.systempreferences:com.apple.Game-Center-Settings.extension`
+\
+\
+___<sub><sup>GAME CENTER ></sup></sub>___ _Customize Profile_
+\
+`x-apple.systempreferences:com.apple.Game-Center-Settings?EDIT_PROFILE`
+\
+\
+___<sub><sup>GAME CENTER ></sup></sub>___ _All Friends_
+\
+`x-apple.systempreferences:com.apple.Game-Center-Settings?ALL_FRIENDS`
+\
+\
+___<sub><sup>GAME CENTER ></sup></sub>___ _Friend Requests_
+\
+`x-apple.systempreferences:com.apple.Game-Center-Settings?FRIEND_REQUESTS`
+\
+\
+___<sub><sup>GAME CENTER ></sup></sub>___ _Invite Friends_
+\
+`x-apple.systempreferences:com.apple.Game-Center-Settings?INVITE_FRIENDS`
 \
 \
 \
