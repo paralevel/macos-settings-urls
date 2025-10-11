@@ -187,7 +187,7 @@ ___<sub><sup>GENERAL ></sup></sub>___ _Software Update > Automatic Updates >_ &#
 \
 ___<sub><sup>GENERAL ></sup></sub>___ _Software Update > Beta Updates >_ &#9432;
 \
-`x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showBetaUpdates` _<sup>Z<sub>Z<sub>Z</sub></sub>_
+`x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showBetaUpdates` _<sup>(wait time)</sup>_
 \
 \
 ___<sub><sup>GENERAL ></sup></sub>___ _Storage_
