@@ -703,6 +703,8 @@ _iCloud_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings:icloud
 ~~~
+> _see also Apple Account > iCloud_
+
 \
 \
 _Wallet & Apple Pay_
