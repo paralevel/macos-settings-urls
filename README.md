@@ -711,6 +711,12 @@ x-apple.systempreferences:com.apple.WalletSettingsExtension
 ~~~
 \
 \
+_AirPods_
+~~~yaml
+x-apple.systempreferences:com.apple.HeadphoneSettings
+~~~
+\
+\
 _Keyboard_
 ~~~yaml
 x-apple.systempreferences:com.apple.Keyboard-Settings.extension
