@@ -29,15 +29,15 @@ _Apple Account > iCloud_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?iCloud
 ~~~
-_Apple Account > iCloud > Manage… > Manage Storage_
+_Apple Account > iCloud > Manage > Manage Storage_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?path=STORAGE_AND_BACKUP
 ~~~
-_Apple Account > iCloud > Manage… > Manage Storage > Backups_
+_Apple Account > iCloud > Manage > Manage Storage > Backups_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP
 ~~~
-_Apple Account > iCloud > Manage… > Manage Storage > Change Storage Plan_
+_Apple Account > iCloud > Manage > Manage Storage > Change Storage Plan_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?path=STORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN
 ~~~
@@ -71,11 +71,11 @@ _Wi-Fi_
 ~~~yaml
 x-apple.systempreferences:com.apple.wifi-settings-extension
 ~~~
-_Wi-Fi > (current network) > Details…_
+_Wi-Fi > `current network` > Details_
 ~~~yaml
 x-apple.systempreferences:com.apple.wifi-settings-extension?NetworkDetails
 ~~~
-_Wi-Fi > Advanced…_
+_Wi-Fi > Advanced_
 ~~~yaml
 x-apple.systempreferences:com.apple.wifi-settings-extension?Advanced
 ~~~
@@ -91,27 +91,27 @@ _Network_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension
 ~~~
-_Network > (current network) > TCP/IP_
+_Network > `current network` > TCP/IP_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?TCP/IP
 ~~~
-_Network > (current network) > DNS_
+_Network > `current network` > DNS_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?DNS
 ~~~
-_Network > (current network) > WINS_
+_Network > `current network` > WINS_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?WINS
 ~~~
-_Network > (current network) > 802.1X_
+_Network > `current network` > 802.1X_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?802.1X
 ~~~
-_Network > (current network) > Proxies_
+_Network > `current network` > Proxies_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?Proxies
 ~~~
-_Network > (current network) > Hardware_
+_Network > `current network` > Hardware_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?Hardware
 ~~~
@@ -375,7 +375,7 @@ _Apple Intelligence & Siri > Siri Suggestions & Privacy_
 ~~~yaml
 x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions
 ~~~
-_Apple Intelligence & Siri > Siri Suggestions & Privacy > \[app bundle identifier] <sup>(find it with e.g. `osascript -e 'id of app "Application Name"'`)</sup>_
+_Apple Intelligence & Siri > Siri Suggestions & Privacy > \[app bundle identifier] <sub>(find it with e.g. `osascript -e 'id of app "Application Name"'`)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions&bundleId=bundle_identifier
 ~~~
@@ -399,7 +399,7 @@ _Displays_
 ~~~yaml
 x-apple.systempreferences:com.apple.Displays-Settings.extension
 ~~~
-_Displays > Advanced… \[toggle "Show resolutions as list" etc]_
+_Displays > Advanced \[toggle "Show resolutions as list" etc]_
 ~~~yaml
 x-apple.systempreferences:com.apple.Displays-Settings.extension?advancedSection
 ~~~
@@ -433,7 +433,7 @@ _Notifications_
 ~~~yaml
 x-apple.systempreferences:com.apple.Notifications-Settings.extension
 ~~~
-_Notifications > Summarize notifications \[Apple Intelligence must be enabled]_
+_Notifications > Summarize notifications <sup>(Apple Intelligence must be enabled)</sup>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Notifications-Settings.extension?Summarization
 ~~~
@@ -463,15 +463,15 @@ _Screen Time_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension
 ~~~
-_Screen Time > Notifications <sub>(if App & Website Activity is enabled)</sub>_
+_Screen Time > Notifications <sup>(App & Website Activity must be enabled)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=notifications
 ~~~
-_Screen Time > Pickups <sub>(if App & Website Activity is enabled)</sub>_
+_Screen Time > Pickups <sup>(App & Website Activity must be enabled)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=pickups
 ~~~
-_Screen Time > Downtime <sub>(if App & Website Activity is enabled)</sub>_
+_Screen Time > Downtime <sup>(App & Website Activity must be enabled)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=downtime
 ~~~
@@ -647,15 +647,15 @@ _Users & Groups_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension
 ~~~
-_Users & Groups > (current user)_ > &#9432;
+_Users & Groups > `current user` >_ &#9432;
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo
 ~~~
-_Users & Groups > (current user) > Password > Change…_
+_Users & Groups > `current user` > Password > Change_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?changepassword
 ~~~
-_Users & Groups > (name of user)_ > &#9432; <sub>(not neccessary to URL encode space characters)</sub>
+_Users & Groups > `name of user`_ > &#9432;
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:full_name_or_short_name
 ~~~
@@ -733,7 +733,7 @@ _Keyboard > Modifier keys_
 ~~~yaml
 x-apple.systempreferences:com.apple.Keyboard-Settings.extension?ModifierKeys
 ~~~
-_Keyboard > Text Input > Edit… \[set smart quotes, smart dashes, spell checking, auto-correction etc]_
+_Keyboard > Text Input > Edit \[set smart quotes, smart dashes, spell checking, auto-correction etc]_
 ~~~yaml
 x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
 ~~~
