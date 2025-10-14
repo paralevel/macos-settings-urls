@@ -672,7 +672,9 @@ _Internet Accounts_
 ~~~yaml
 x-apple.systempreferences:com.apple.Internet-Accounts-Settings.extension
 ~~~
-\
+_Internet Accounts > iCloud_
+> _see Apple Account > iCloud_
+
 \
 _Internet Accounts > Add Account_
 ~~~yaml
