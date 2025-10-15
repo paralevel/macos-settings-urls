@@ -71,7 +71,7 @@ _Wi-Fi_
 ~~~yaml
 x-apple.systempreferences:com.apple.wifi-settings-extension
 ~~~
-_Wi-Fi > `current network` > Details_
+_Wi-Fi > {current network} > Details_
 ~~~yaml
 x-apple.systempreferences:com.apple.wifi-settings-extension?NetworkDetails
 ~~~
@@ -86,7 +86,7 @@ _Bluetooth_
 x-apple.systempreferences:com.apple.BluetoothSettings
 ~~~
 _Bluetooth > AirPods >_ &#x24d8;
-> _see AirPods below_
+> _see \`AirPods´ below_
 
 \
 \
@@ -94,27 +94,27 @@ _Network_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension
 ~~~
-_Network > `current network` > TCP/IP_
+_Network > {current network} > TCP/IP_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?TCP/IP
 ~~~
-_Network > `current network` > DNS_
+_Network > {current network} > DNS_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?DNS
 ~~~
-_Network > `current network` > WINS_
+_Network > {current network} > WINS_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?WINS
 ~~~
-_Network > `current network` > 802.1X_
+_Network > {current network} > 802.1X_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?802.1X
 ~~~
-_Network > `current network` > Proxies_
+_Network > {current network} > Proxies_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?Proxies
 ~~~
-_Network > `current network` > Hardware_
+_Network > {current network} > Hardware_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?Hardware
 ~~~
@@ -378,7 +378,7 @@ _Apple Intelligence & Siri > Siri Suggestions & Privacy_
 ~~~yaml
 x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions
 ~~~
-_Apple Intelligence & Siri > Siri Suggestions & Privacy > \[app bundle identifier] <sub>(find it with e.g. `osascript -e 'id of app "Application Name"'`)</sub>_
+_Apple Intelligence & Siri > Siri Suggestions & Privacy > {app bundle identifier} <sub>(find it with e.g. `osascript -e 'id of app "Application Name"'`)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions&bundleId=bundle_identifier
 ~~~
@@ -650,15 +650,15 @@ _Users & Groups_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension
 ~~~
-_Users & Groups > `current user` >_ &#9432;
+_Users & Groups > {current user} >_ &#9432;
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo
 ~~~
-_Users & Groups > `current user` > Password > Change_
+_Users & Groups > {current user} > Password > Change_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?changepassword
 ~~~
-_Users & Groups > `name of user`_ > &#9432;
+_Users & Groups > {name of user}_ > &#9432;
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:full_name_or_short_name
 ~~~
@@ -673,7 +673,7 @@ _Internet Accounts_
 x-apple.systempreferences:com.apple.Internet-Accounts-Settings.extension
 ~~~
 _Internet Accounts > iCloud_
-> _see Apple Account > iCloud_
+> _see \`Apple Account > iCloud´_
 
 \
 _Internet Accounts > Add Account_
@@ -708,7 +708,7 @@ _iCloud_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings:icloud
 ~~~
-> _see also Apple Account > iCloud_
+> _see also \`Apple Account > iCloud´_
 
 \
 \
