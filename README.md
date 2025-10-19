@@ -86,7 +86,7 @@ _Bluetooth_
 x-apple.systempreferences:com.apple.BluetoothSettings
 ~~~
 _Bluetooth > AirPods >_ &#x24d8;
-> _see \`AirPods´ below_
+> _see `AirPods´ below_
 
 \
 \
@@ -673,7 +673,7 @@ _Internet Accounts_
 x-apple.systempreferences:com.apple.Internet-Accounts-Settings.extension
 ~~~
 _Internet Accounts > iCloud_
-> _see \`Apple Account > iCloud´_
+> _see `Apple Account > iCloud´_
 
 \
 _Internet Accounts > Add Account_
@@ -704,12 +704,10 @@ x-apple.systempreferences:com.apple.Game-Center-Settings?INVITE_FRIENDS
 ~~~
 \
 \
-_iCloud_
+_iCloud <sup>(see also `Apple Account > iCloud´)</sup>_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings:icloud
 ~~~
-> _see also \`Apple Account > iCloud´_
-
 \
 \
 _Wallet & Apple Pay_
