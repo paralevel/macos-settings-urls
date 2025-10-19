@@ -154,7 +154,7 @@ _General > Software Update > Automatic Updates >_ &#9432;
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showAdvancedOptions
 ~~~
-_General > Software Update > Beta Updates >_ &#9432; _<sup>(may take a while to load)</sup>_
+_General > Software Update > Beta Updates >_ &#9432; _<sub>(may take a while to load)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showBetaUpdates
 ~~~
@@ -436,7 +436,7 @@ _Notifications_
 ~~~yaml
 x-apple.systempreferences:com.apple.Notifications-Settings.extension
 ~~~
-_Notifications > Summarize notifications <sup>(Apple Intelligence must be enabled)</sup>_
+_Notifications > Summarize notifications <sub>(Apple Intelligence must be enabled)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Notifications-Settings.extension?Summarization
 ~~~
@@ -466,15 +466,15 @@ _Screen Time_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension
 ~~~
-_Screen Time > Notifications <sup>(App & Website Activity must be enabled)</sub>_
+_Screen Time > Notifications <sub>(App & Website Activity must be enabled)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=notifications
 ~~~
-_Screen Time > Pickups <sup>(App & Website Activity must be enabled)</sub>_
+_Screen Time > Pickups <sub>(App & Website Activity must be enabled)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=pickups
 ~~~
-_Screen Time > Downtime <sup>(App & Website Activity must be enabled)</sub>_
+_Screen Time > Downtime <sub>(App & Website Activity must be enabled)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=downtime
 ~~~
