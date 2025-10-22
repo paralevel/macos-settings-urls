@@ -86,8 +86,10 @@ _Bluetooth_
 x-apple.systempreferences:com.apple.BluetoothSettings
 ~~~
 _Bluetooth > AirPods >_ &#9432;
-> _see `AirPods´ below_
-
+\
+&emsp;_<sub>see `AirPods´ below</sub>_
+\
+\
 \
 \
 _Network_
