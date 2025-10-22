@@ -85,9 +85,6 @@ _Bluetooth_
 ~~~yaml
 x-apple.systempreferences:com.apple.BluetoothSettings
 ~~~
-_Bluetooth > AirPods >_ &#x24d8;
-> _see `AirPods´ below_
-
 \
 \
 _Network_
@@ -672,10 +669,6 @@ _Internet Accounts_
 ~~~yaml
 x-apple.systempreferences:com.apple.Internet-Accounts-Settings.extension
 ~~~
-_Internet Accounts > iCloud_
-> _see `Apple Account > iCloud´_
-
-\
 _Internet Accounts > Add Account_
 ~~~yaml
 x-apple.systempreferences:com.apple.Internet-Accounts-Settings.extension?ADD_ACCOUNT
