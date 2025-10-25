@@ -21,10 +21,6 @@ _Apple Account > Payment & Shipping_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?loadPaymentUI
 ~~~
-_Apple Account > Family_
-~~~yaml
-x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?family
-~~~
 _Apple Account > iCloud_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?iCloud
@@ -528,10 +524,6 @@ x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_F
 _Privacy & Security > Privacy > Home Accessories_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_HomeKit
-~~~
-_Privacy & Security > Privacy > Media & Apple Music_
-~~~yaml
-x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Media
 ~~~
 _Privacy & Security > Privacy > Passkeys Access for Web Browsers_
 ~~~yaml
