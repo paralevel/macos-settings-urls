@@ -439,10 +439,6 @@ _Notifications_
 ~~~yaml
 x-apple.systempreferences:com.apple.Notifications-Settings.extension
 ~~~
-_Notifications > Summarize notifications <sub>(Apple Intelligence must be enabled)</sub>_
-~~~yaml
-x-apple.systempreferences:com.apple.Notifications-Settings.extension?Summarization
-~~~
 \
 \
 _Sound_
@@ -613,11 +609,7 @@ _Privacy & Security > Privacy > Apple Advertising_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Advertising
 ~~~
-_Privacy & Security > Privacy > Apple Intelligence Report_
-~~~yaml
-x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_AppleIntelligenceReport
-~~~
-_Privacy & Security > Security _(section)__
+_Privacy & Security > Security (section)_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Security
 ~~~
