@@ -585,10 +585,6 @@ _Privacy & Security > Privacy > Microphone_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Microphone
 ~~~
-_Privacy & Security > Privacy > Motion & Fitness_
-~~~yaml
-x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Motion
-~~~
 _Privacy & Security > Privacy > Remote Desktop_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_RemoteDesktop
