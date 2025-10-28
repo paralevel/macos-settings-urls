@@ -541,6 +541,10 @@ _Privacy & Security > Privacy > Files & Folders_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_FilesAndFolders
 ~~~
+_Privacy & Security > Privacy > Full Disk Access_
+~~~yaml
+x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_AllFiles
+~~~
 _Privacy & Security > Privacy > Home Accessories_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_HomeKit
