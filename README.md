@@ -193,13 +193,29 @@ _General > Login Items & Extensions_
 ~~~yaml
 x-apple.systempreferences:com.apple.LoginItems-Settings.extension
 ~~~
-_General > Login Items & Extensions > File Providers >_ &#9432;
+_General > Login Items & Extensions > Open at Login (section)_
+~~~yaml
+x-apple.systempreferences:com.apple.LoginItems-Settings.extension?UserItems
+~~~
+_General > Login Items & Extensions > App Background Activity (section)_
+~~~yaml
+x-apple.systempreferences:com.apple.LoginItems-Settings.extension?BackgroundItems
+~~~
+_General > Login Items & Extensions > Extensions (section)_
+~~~yaml
+x-apple.systempreferences:com.apple.LoginItems-Settings.extension?ExtensionItems
+~~~
+_General > Login Items & Extensions > Extensions > File Providers >_ &#9432;
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.fileprovider-nonui
 ~~~
-_General > Login Items & Extensions > Finder >_ &#9432;
+_General > Login Items & Extensions > Extensions > Finder >_ &#9432;
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.finder-quick-actions
+~~~
+_General > Login Items & Extensions > Extensions > Sharing >_ &#9432;
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.share-services
 ~~~
 _General > Sharing_
 ~~~yaml
@@ -692,6 +708,14 @@ x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings:icloud
 _Wallet & Apple Pay_
 ~~~yaml
 x-apple.systempreferences:com.apple.WalletSettingsExtension
+~~~
+_Wallet & Apple Pay > Add Card_
+~~~yaml
+x-apple.systempreferences:com.apple.WalletSettingsExtension?fpanImportPrivacy
+~~~
+_Wallet & Apple Pay > AutoFill Cards_
+~~~yaml
+x-apple.systempreferences:com.apple.WalletSettingsExtension?autoFillPane
 ~~~
 \
 \
