@@ -451,6 +451,10 @@ _Notifications_
 ~~~yaml
 x-apple.systempreferences:com.apple.Notifications-Settings.extension
 ~~~
+_Notifications > {app bundle identifier}_
+~~~yaml
+x-apple.systempreferences:com.apple.Notifications-Settings.extension?id=bundle_identifier
+~~~
 \
 \
 _Sound_
