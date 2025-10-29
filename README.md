@@ -81,7 +81,7 @@ _Bluetooth_
 ~~~yaml
 x-apple.systempreferences:com.apple.BluetoothSettings
 ~~~
-_Bluetooth > AirPods >_ &#9432;
+_Bluetooth > AirPods __&#x24d8;___
 \
 \
 &ensp;&ensp;_<sup>see `AirPods´ below</sup>_
@@ -127,7 +127,7 @@ _Battery_
 ~~~yaml
 x-apple.systempreferences:com.apple.Battery-Settings.extension
 ~~~
-_Battery > Battery Health >_ &#9432;
+_Battery > Battery Health __&#x24d8;___
 ~~~yaml
 x-apple.systempreferences:com.apple.Battery-Settings.extension?batteryhealth
 ~~~
@@ -149,11 +149,11 @@ _General > Software Update_
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension
 ~~~
-_General > Software Update > Automatic Updates >_ &#9432;
+_General > Software Update > Automatic Updates __&#x24d8;___
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showAdvancedOptions
 ~~~
-_General > Software Update > Beta Updates >_ &#9432; _<sub>(may take a while to load)</sub>_
+_General > Software Update > Beta Updates __&#x24d8;___ _<sub>(may take a while to load)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showBetaUpdates
 ~~~
@@ -205,15 +205,15 @@ _General > Login Items & Extensions > Extensions (section)_
 ~~~yaml
 x-apple.systempreferences:com.apple.LoginItems-Settings.extension?ExtensionItems
 ~~~
-_General > Login Items & Extensions > Extensions > File Providers >_ &#9432;
+_General > Login Items & Extensions > Extensions > File Providers __&#x24d8;___
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.fileprovider-nonui
 ~~~
-_General > Login Items & Extensions > Extensions > Finder >_ &#9432;
+_General > Login Items & Extensions > Extensions > Finder __&#x24d8;___
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.finder-quick-actions
 ~~~
-_General > Login Items & Extensions > Extensions > Sharing >_ &#9432;
+_General > Login Items & Extensions > Extensions > Sharing __&#x24d8;___
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.share-services
 ~~~
@@ -221,27 +221,27 @@ _General > Sharing_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension
 ~~~
-_General > Sharing > Content & Media > Screen Sharing >_ &#9432;
+_General > Sharing > Content & Media > Screen Sharing __&#x24d8;___
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_ScreenSharing
 ~~~
-_General > Sharing > Accessories & Internet > Printer Sharing >_ &#9432;
+_General > Sharing > Accessories & Internet > Printer Sharing __&#x24d8;___
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_PrinterSharing
 ~~~
-_General > Sharing > Accessories & Internet > Internet Sharing >_ &#9432;
+_General > Sharing > Accessories & Internet > Internet Sharing __&#x24d8;___
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Internet
 ~~~
-_General > Sharing > Advanced > Remote Management >_ &#9432;
+_General > Sharing > Advanced > Remote Management __&#x24d8;___
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_ARDService
 ~~~
-_General > Sharing > Advanced > Remote Login >_ &#9432;
+_General > Sharing > Advanced > Remote Login __&#x24d8;___
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_RemoteLogin
 ~~~
-_General > Sharing > Advanced > Remote Application Scripting >_ &#9432;
+_General > Sharing > Advanced > Remote Application Scripting __&#x24d8;___
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_RemoteAppleEvent
 ~~~
@@ -657,7 +657,7 @@ _Users & Groups_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension
 ~~~
-_Users & Groups > {current user} >_ &#9432;
+_Users & Groups > {current user} __&#x24d8;___
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo
 ~~~
@@ -665,11 +665,11 @@ _Users & Groups > {current user} > Password > Change_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?changepassword
 ~~~
-_Users & Groups > {name of user}_ > &#9432;
+_Users & Groups > {name of user}_ > &#x24d8;
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:full_name_or_short_name
 ~~~
-_Users & Groups > Guest User >_ &#9432;
+_Users & Groups > Guest User __&#x24d8;___
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:guest
 ~~~
