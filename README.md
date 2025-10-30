@@ -370,6 +370,14 @@ _Accessibility > Voice Control_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?VoiceControl
 ~~~
+_Accessibility > Voice Control > Commands_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_VOICE_CONTROL_COMMANDS
+~~~
+_Accessibility > Voice Control > Vocabulary_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_VOICE_CONTROL_VOCABULARY
+~~~
 _Accessibility > Keyboard_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Keyboard
@@ -393,6 +401,26 @@ x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_KB_APPEA
 _Accessibility > Pointer Control_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?PointerControl
+~~~
+_Accessibility > Pointer Control > Trackpad Options_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_TRACKPAD_OPTIONS
+~~~
+_Accessibility > Pointer Control > Mouse Options_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_MOUSE_OPTIONS
+~~~
+_Accessibility > Pointer Control > Mouse Keys_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_MOUSE_KEYS_SHORTCUT
+~~~
+_Accessibility > Pointer Control > Alternative pointer actions_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_CONFIGURE_CAMERA
+~~~
+_Accessibility > Pointer Control > Head pointer_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_HEAD_MOUSE_BUTTON
 ~~~
 _Accessibility > Switch Control_
 ~~~yaml
