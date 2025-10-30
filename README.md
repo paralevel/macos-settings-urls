@@ -290,6 +290,14 @@ _Accessibility > Zoom_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Zoom
 ~~~
+_Accessibility > Zoom > Choose Display_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_ZOOM_CHOOSE_DISPLAY
+~~~
+_Accessibility > Zoom > Advanced_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_ZOOM_TOGGLE_FS_AND_PIP
+~~~
 _Accessibility > Hover Text_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?HoverText
@@ -365,6 +373,22 @@ x-apple.systempreferences:com.apple.Accessibility-Settings.extension?VoiceContro
 _Accessibility > Keyboard_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Keyboard
+~~~
+_Accessibility > Keyboard > Full Keyboard Access_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?fullKeyboardAccessOptions
+~~~
+_Accessibility > Keyboard > Sticky Keys_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_STICKY_KEYS_BEEP
+~~~
+_Accessibility > Keyboard > Slow Keys_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?slowKeysOptions
+~~~
+_Accessibility > Keyboard > Accessibility Keyboard_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_KB_APPEARANCE_TYPE
 ~~~
 _Accessibility > Pointer Control_
 ~~~yaml
