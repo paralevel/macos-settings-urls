@@ -208,9 +208,17 @@ _General > Login Items & Extensions > Extensions > File Providers &#x24d8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.fileprovider-nonui
 ~~~
+_General > Login Items & Extensions > Extensions > File System Extensions &#x24d8;_
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.fskit.fsmodule
+~~~
 _General > Login Items & Extensions > Extensions > Finder &#x24d8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.finder-quick-actions
+~~~
+_General > Login Items & Extensions > Extensions > Network &#x24d8;_
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.system_extension.network_extension.extension-point
 ~~~
 _General > Login Items & Extensions > Extensions > Sharing &#x24d8;_
 ~~~yaml
