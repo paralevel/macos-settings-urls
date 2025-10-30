@@ -444,7 +444,7 @@ x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_NAVIGATI
 ~~~
 _Accessibility > Live Speech_
 ~~~yaml
-x-apple.systempreferences:com.apple.Accessibility-Settings.extension?LiveSpeec
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?LiveSpeech
 ~~~
 _Accessibility > Personal Voice_
 ~~~yaml
