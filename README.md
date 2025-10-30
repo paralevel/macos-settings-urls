@@ -760,7 +760,7 @@ _Users & Groups > {current user} > Password > Change_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?changepassword
 ~~~
-_Users & Groups > {name of user} > &#X24D8;_
+_Users & Groups > {name of user} &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:full_name_or_short_name
 ~~~
