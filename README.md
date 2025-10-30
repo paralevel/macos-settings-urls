@@ -81,7 +81,7 @@ _Bluetooth_
 ~~~yaml
 x-apple.systempreferences:com.apple.BluetoothSettings
 ~~~
-_Bluetooth > AirPods &#x24d8;_
+_Bluetooth > AirPods &#X24D8;_
 \
 \
 &emsp;see `AirPods´ below
@@ -126,7 +126,7 @@ _Battery_
 ~~~yaml
 x-apple.systempreferences:com.apple.Battery-Settings.extension
 ~~~
-_Battery > Battery Health &#x24d8;_
+_Battery > Battery Health &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Battery-Settings.extension?batteryhealth
 ~~~
@@ -148,11 +148,11 @@ _General > Software Update_
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension
 ~~~
-_General > Software Update > Automatic Updates &#x24d8;_
+_General > Software Update > Automatic Updates &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showAdvancedOptions
 ~~~
-_General > Software Update > Beta Updates &#x24d8;_ <sub>(may take a while to load)</sub>
+_General > Software Update > Beta Updates &#X24D8;_ <sub>(may take a while to load)</sub>
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showBetaUpdates
 ~~~
@@ -204,23 +204,23 @@ _General > Login Items & Extensions > Extensions (section)_
 ~~~yaml
 x-apple.systempreferences:com.apple.LoginItems-Settings.extension?ExtensionItems
 ~~~
-_General > Login Items & Extensions > Extensions > File Providers &#x24d8;_
+_General > Login Items & Extensions > Extensions > File Providers &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.fileprovider-nonui
 ~~~
-_General > Login Items & Extensions > Extensions > File System Extensions &#x24d8;_
+_General > Login Items & Extensions > Extensions > File System Extensions &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.fskit.fsmodule
 ~~~
-_General > Login Items & Extensions > Extensions > Finder &#x24d8;_
+_General > Login Items & Extensions > Extensions > Finder &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.finder-quick-actions
 ~~~
-_General > Login Items & Extensions > Extensions > Network &#x24d8;_
+_General > Login Items & Extensions > Extensions > Network &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.system_extension.network_extension.extension-point
 ~~~
-_General > Login Items & Extensions > Extensions > Sharing &#x24d8;_
+_General > Login Items & Extensions > Extensions > Sharing &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.share-services
 ~~~
@@ -228,27 +228,27 @@ _General > Sharing_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension
 ~~~
-_General > Sharing > Content & Media > Screen Sharing &#x24d8;_
+_General > Sharing > Content & Media > Screen Sharing &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_ScreenSharing
 ~~~
-_General > Sharing > Accessories & Internet > Printer Sharing &#x24d8;_
+_General > Sharing > Accessories & Internet > Printer Sharing &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_PrinterSharing
 ~~~
-_General > Sharing > Accessories & Internet > Internet Sharing &#x24d8;_
+_General > Sharing > Accessories & Internet > Internet Sharing &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Internet
 ~~~
-_General > Sharing > Advanced > Remote Management &#x24d8;_
+_General > Sharing > Advanced > Remote Management &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_ARDService
 ~~~
-_General > Sharing > Advanced > Remote Login &#x24d8;_
+_General > Sharing > Advanced > Remote Login &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_RemoteLogin
 ~~~
-_General > Sharing > Advanced > Remote Application Scripting &#x24d8;_
+_General > Sharing > Advanced > Remote Application Scripting &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_RemoteAppleEvent
 ~~~
@@ -309,6 +309,26 @@ x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Motion
 _Accessibility > Read & Speak_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?SpokenContent
+~~~
+_Accessibility > Read & Speak > Speak selection &#X24D8;_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_SPOKEN_SELECTION_SHOW_CONTROLLER
+~~~
+_Accessibility > Read & Speak > Speak item under the pointer &#X24D8;_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_SPOKEN_POINTER_ELEMENT_MODE
+~~~
+_Accessibility > Read & Speak > Speak announcements &#X24D8;_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_SPEECH_TEST
+~~~
+_Accessibility > Read & Speak > Speak typing feedback &#X24D8;_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_SPOKEN_TYPING_ECHO_CHARS
+~~~
+_Accessibility > Read & Speak > Pronunciations &#X24D8;_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_SPOKEN_PRONUNCIATIONS_EDIT
 ~~~
 _Accessibility > Audio Descriptions_
 ~~~yaml
@@ -664,7 +684,7 @@ _Users & Groups_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension
 ~~~
-_Users & Groups > {current user} &#x24d8;_
+_Users & Groups > {current user} &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo
 ~~~
@@ -672,11 +692,11 @@ _Users & Groups > {current user} > Password > Change_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?changepassword
 ~~~
-_Users & Groups > {name of user} > &#x24d8;_
+_Users & Groups > {name of user} > &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:full_name_or_short_name
 ~~~
-_Users & Groups > Guest User &#x24d8;_
+_Users & Groups > Guest User &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:guest
 ~~~
