@@ -84,7 +84,7 @@ x-apple.systempreferences:com.apple.BluetoothSettings
 _Bluetooth > AirPods &#X24D8;_
 \
 \
-&emsp;see `AirPods´ below
+&emsp;see _AirPods_
 \
 \
 \
@@ -576,15 +576,15 @@ _Screen Time_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension
 ~~~
-_Screen Time > Notifications_ <sub>(App & Website Activity must be enabled)</sub>
+_Screen Time > Notifications_ <sub>(_App & Website Activity_ must be enabled)</sub>
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=notifications
 ~~~
-_Screen Time > Pickups_ <sub>(App & Website Activity must be enabled)</sub>
+_Screen Time > Pickups_ <sub>(_App & Website Activity_ must be enabled)</sub>
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=pickups
 ~~~
-_Screen Time > Downtime_ <sub>(App & Website Activity must be enabled)</sub>
+_Screen Time > Downtime_ <sub>(_App & Website Activity_ must be enabled)</sub>
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=downtime
 ~~~
@@ -802,7 +802,7 @@ x-apple.systempreferences:com.apple.Game-Center-Settings?INVITE_FRIENDS
 ~~~
 \
 \
-_iCloud_ <sup>(see also `Apple Account > iCloud´)</sup>
+_iCloud_ <sup>(see also _Apple Account > iCloud_)</sup>
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings:icloud
 ~~~
