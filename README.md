@@ -374,19 +374,19 @@ _Accessibility > Keyboard_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Keyboard
 ~~~
-_Accessibility > Keyboard > Full Keyboard Access_
+_Accessibility > Keyboard > Full Keyboard Access &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?fullKeyboardAccessOptions
 ~~~
-_Accessibility > Keyboard > Sticky Keys_
+_Accessibility > Keyboard > Sticky Keys &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_STICKY_KEYS_BEEP
 ~~~
-_Accessibility > Keyboard > Slow Keys_
+_Accessibility > Keyboard > Slow Keys &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?slowKeysOptions
 ~~~
-_Accessibility > Keyboard > Accessibility Keyboard_
+_Accessibility > Keyboard > Accessibility Keyboard &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_KB_APPEARANCE_TYPE
 ~~~
