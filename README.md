@@ -88,6 +88,7 @@ _Bluetooth > AirPods &#X24D8;_
 \
 \
 \
+\
 _Network_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension
