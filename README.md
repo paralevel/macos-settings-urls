@@ -302,6 +302,14 @@ _Accessibility > Hover Text_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?HoverText
 ~~~
+_Accessibility > Hover Text > Hover Text &#X24D8;_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?hoverTextSettings
+~~~
+_Accessibility > Hover Text > Hover Typing &#X24D8;_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?hoverTypingSettings
+~~~
 _Accessibility > Display_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Display
@@ -425,6 +433,14 @@ x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_HEAD_MOU
 _Accessibility > Switch Control_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?SwitchControl
+~~~
+_Accessibility > Switch Control > Switch Timing_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_SWITCH_TIMING
+~~~
+_Accessibility > Switch Control > Navigation Timing_
+~~~yaml
+x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_NAVIGATION_TIMING
 ~~~
 _Accessibility > Live Speech_
 ~~~yaml
