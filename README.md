@@ -153,7 +153,7 @@ _General > Software Update > Automatic Updates &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showAdvancedOptions
 ~~~
-_General > Software Update > Beta Updates &#X24D8;_ <sub>[slight delay]</sub>
+_General > Software Update > Beta Updates &#X24D8;_ <sub>[some delay]</sub>
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showBetaUpdates
 ~~~
