@@ -63,6 +63,16 @@ x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?signInWith
 ~~~
 \
 \
+_Family_
+~~~yaml
+x-apple.systempreferences:com.apple.Family-Settings.extension
+~~~
+_Family > Subscriptions_
+~~~yaml
+x-apple.systempreferences:com.apple.Family-Settings.extension?familyPath=/subscriptions
+~~~
+\
+\
 _Wi-Fi_
 ~~~yaml
 x-apple.systempreferences:com.apple.wifi-settings-extension
