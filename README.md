@@ -67,7 +67,7 @@ _Wi-Fi_
 ~~~yaml
 x-apple.systempreferences:com.apple.wifi-settings-extension
 ~~~
-_Wi-Fi > {current network} > Details_
+_Wi-Fi > [current network] > Details_
 ~~~yaml
 x-apple.systempreferences:com.apple.wifi-settings-extension?NetworkDetails
 ~~~
@@ -93,27 +93,27 @@ _Network_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension
 ~~~
-_Network > {current network} > TCP/IP_
+_Network > [current network] > TCP/IP_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?TCP/IP
 ~~~
-_Network > {current network} > DNS_
+_Network > [current network] > DNS_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?DNS
 ~~~
-_Network > {current network} > WINS_
+_Network > [current network] > WINS_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?WINS
 ~~~
-_Network > {current network} > 802.1X_
+_Network > [current network] > 802.1X_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?802.1X
 ~~~
-_Network > {current network} > Proxies_
+_Network > [current network] > Proxies_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?Proxies
 ~~~
-_Network > {current network} > Hardware_
+_Network > [current network] > Hardware_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension?Hardware
 ~~~
@@ -153,7 +153,7 @@ _General > Software Update > Automatic Updates &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showAdvancedOptions
 ~~~
-_General > Software Update > Beta Updates &#X24D8; <sub>[some delay]</sub>_
+_General > Software Update > Beta Updates &#X24D8; <sub>(some delay)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showBetaUpdates
 ~~~
@@ -489,7 +489,7 @@ _Apple Intelligence & Siri > Siri Suggestions & Privacy_
 ~~~yaml
 x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions
 ~~~
-_Apple Intelligence & Siri > Siri Suggestions & Privacy > {app bundle identifier} <sub>[find it with e.g. `osascript -e 'id of app "Application Name"'`]</sub>_
+_Apple Intelligence & Siri > Siri Suggestions & Privacy > [app bundle identifier] <sub>(find it with e.g. `osascript -e 'id of app "Application Name"'`)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions&bundleId=bundle_identifier
 ~~~
@@ -513,7 +513,7 @@ _Displays_
 ~~~yaml
 x-apple.systempreferences:com.apple.Displays-Settings.extension
 ~~~
-_Displays > Advanced <sub>[toggle "Show resolutions as list" etc]</sub>_
+_Displays > Advanced <sub>(toggle "Show resolutions as list" etc)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Displays-Settings.extension?advancedSection
 ~~~
@@ -547,7 +547,7 @@ _Notifications_
 ~~~yaml
 x-apple.systempreferences:com.apple.Notifications-Settings.extension
 ~~~
-_Notifications > {app bundle identifier}_
+_Notifications > [app bundle identifier]_
 ~~~yaml
 x-apple.systempreferences:com.apple.Notifications-Settings.extension?id=bundle_identifier
 ~~~
@@ -577,23 +577,23 @@ _Screen Time_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension
 ~~~
-_Screen Time > App & Website Activity <sub>[if enabled]</sub>_
+_Screen Time > App & Website Activity <sub>(if enabled)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=app-usage
 ~~~
-_Screen Time > Notifications <sub>[_App & Website Activity_ must be enabled]</sub>_
+_Screen Time > Notifications <sub>(_App & Website Activity_ must be enabled)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=notifications
 ~~~
-_Screen Time > Pickups <sub>[_App & Website Activity_ must be enabled]</sub>_
+_Screen Time > Pickups <sub>(_App & Website Activity_ must be enabled)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=pickups
 ~~~
-_Screen Time > Downtime <sub>[_App & Website Activity_ must be enabled]</sub>_
+_Screen Time > Downtime <sub>(_App & Website Activity_ must be enabled)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=downtime
 ~~~
-_Screen Time > App Limits <sub>[_App & Website Activity_ must be enabled]</sub>_
+_Screen Time > App Limits <sub>(_App & Website Activity_ must be enabled)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=app-limits
 ~~~
@@ -765,15 +765,15 @@ _Users & Groups_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension
 ~~~
-_Users & Groups > {current user} &#X24D8;_
+_Users & Groups > [current user] &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo
 ~~~
-_Users & Groups > {current user} > Password > Change_
+_Users & Groups > [current user] > Password > Change_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?changepassword
 ~~~
-_Users & Groups > {name of user} &#X24D8;_
+_Users & Groups > [name of user] &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:full_name_or_short_name
 ~~~
@@ -815,7 +815,7 @@ x-apple.systempreferences:com.apple.Game-Center-Settings?INVITE_FRIENDS
 ~~~
 \
 \
-_iCloud <sub>[see also _Apple Account > iCloud_]</sub>_
+_iCloud <sub>(see also _Apple Account > iCloud_)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings:icloud
 ~~~
@@ -857,7 +857,7 @@ _Keyboard > Modifier keys_
 ~~~yaml
 x-apple.systempreferences:com.apple.Keyboard-Settings.extension?ModifierKeys
 ~~~
-_Keyboard > Text Input > Edit <sub>[set smart quotes, smart dashes, spell checking, auto-correction etc]</sub>_
+_Keyboard > Text Input > Edit <sub>(set smart quotes, smart dashes, spell checking, auto-correction etc)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
 ~~~
