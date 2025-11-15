@@ -581,19 +581,19 @@ _Screen Time > App & Website Activity <sub>(if enabled)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=app-usage
 ~~~
-_Screen Time > Notifications <sub>(_App & Website Activity_ must be enabled)</sub>_
+_Screen Time > Notifications <sub>(App & Website Activity feature)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=notifications
 ~~~
-_Screen Time > Pickups <sub>(_App & Website Activity_ must be enabled)</sub>_
+_Screen Time > Pickups <sub>(App & Website Activity feature)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=pickups
 ~~~
-_Screen Time > Downtime <sub>(_App & Website Activity_ must be enabled)</sub>_
+_Screen Time > Downtime <sub>(App & Website Activity feature)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=downtime
 ~~~
-_Screen Time > App Limits <sub>(_App & Website Activity_ must be enabled)</sub>_
+_Screen Time > App Limits <sub>(App & Website Activity feature)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=app-limits
 ~~~
