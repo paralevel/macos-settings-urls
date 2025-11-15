@@ -815,7 +815,7 @@ x-apple.systempreferences:com.apple.Game-Center-Settings?INVITE_FRIENDS
 ~~~
 \
 \
-_iCloud <sub>(see also _Apple Account > iCloud_)</sub>_
+_iCloud <sub>(see Apple Account > iCloud for more URLs)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings:icloud
 ~~~
