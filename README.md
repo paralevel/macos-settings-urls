@@ -81,10 +81,6 @@ _Bluetooth_
 ~~~yaml
 x-apple.systempreferences:com.apple.BluetoothSettings
 ~~~
-_Bluetooth > AirPods &#X24D8;_
-~~~yaml
-x-apple.systempreferences:com.apple.HeadphoneSettings
-~~~
 \
 \
 _Network_
