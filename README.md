@@ -82,11 +82,9 @@ _Bluetooth_
 x-apple.systempreferences:com.apple.BluetoothSettings
 ~~~
 _Bluetooth > AirPods &#X24D8;_
-\
-\
-&emsp;see _AirPods_
-\
-\
+~~~yaml
+x-apple.systempreferences:com.apple.HeadphoneSettings
+~~~
 \
 \
 _Network_
@@ -141,10 +139,14 @@ _General_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.GeneralSettings
 ~~~
+\
+\
 _General > About_
 ~~~yaml
 x-apple.systempreferences:com.apple.SystemProfiler.AboutExtension
 ~~~
+\
+\
 _General > Software Update_
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension
@@ -157,26 +159,38 @@ _General > Software Update > Beta Updates &#X24D8; <sub>(some delay)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showBetaUpdates
 ~~~
+\
+\
 _General > Storage_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.Storage
 ~~~
+\
+\
 _General > AppleCare & Warranty_
 ~~~yaml
 x-apple.systempreferences:com.apple.Coverage-Settings.extension
 ~~~
+\
+\
 _General > AirDrop & Handoff_
 ~~~yaml
 x-apple.systempreferences:com.apple.AirDrop-Handoff-Settings.extension
 ~~~
+\
+\
 _General > AutoFill & Passwords_
 ~~~yaml
 x-apple.systempreferences:com.apple.Passwords-Settings.extension
 ~~~
+\
+\
 _General > Date & Time_
 ~~~yaml
 x-apple.systempreferences:com.apple.Date-Time-Settings.extension
 ~~~
+\
+\
 _General > Language & Region_
 ~~~yaml
 x-apple.systempreferences:com.apple.Localization-Settings.extension
@@ -189,6 +203,8 @@ _General > Language & Region > Translation Languages > Translation & Privacy_
 ~~~yaml
 x-apple.systempreferences:com.apple.Localization-Settings.extension?translation-privacy
 ~~~
+\
+\
 _General > Login Items & Extensions_
 ~~~yaml
 x-apple.systempreferences:com.apple.LoginItems-Settings.extension
@@ -225,6 +241,8 @@ _General > Login Items & Extensions > Extensions > Sharing &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.share-services
 ~~~
+\
+\
 _General > Sharing_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension
@@ -253,10 +271,14 @@ _General > Sharing > Advanced > Remote Application Scripting &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_RemoteAppleEvent
 ~~~
+\
+\
 _General > Startup Disk_
 ~~~yaml
 x-apple.systempreferences:com.apple.Startup-Disk-Settings.extension
 ~~~
+\
+\
 _General > Time Machine_
 ~~~yaml
 x-apple.systempreferences:com.apple.Time-Machine-Settings.extension
@@ -269,10 +291,14 @@ _General > Time Machine > Options_
 ~~~yaml
 x-apple.systempreferences:com.apple.Time-Machine-Settings.extension?options
 ~~~
+\
+\
 _General > Device Management_
 ~~~yaml
 x-apple.systempreferences:com.apple.Profiles-Settings.extension
 ~~~
+\
+\
 _General > Transfer or Reset_
 ~~~yaml
 x-apple.systempreferences:com.apple.Transfer-Reset-Settings.extension
@@ -283,10 +309,14 @@ _Accessibility_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension
 ~~~
+\
+\
 _Accessibility > VoiceOver_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?VoiceOver
 ~~~
+\
+\
 _Accessibility > Zoom_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Zoom
@@ -299,6 +329,8 @@ _Accessibility > Zoom > Advanced_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_ZOOM_TOGGLE_FS_AND_PIP
 ~~~
+\
+\
 _Accessibility > Hover Text_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?HoverText
@@ -311,6 +343,8 @@ _Accessibility > Hover Text > Hover Typing &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?hoverTypingSettings
 ~~~
+\
+\
 _Accessibility > Display_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Display
@@ -319,10 +353,14 @@ _Accessibility > Display > Text Size_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_FONT_SIZE
 ~~~
+\
+\
 _Accessibility > Motion_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Motion
 ~~~
+\
+\
 _Accessibility > Read & Speak_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?SpokenContent
@@ -347,34 +385,50 @@ _Accessibility > Read & Speak > Pronunciations &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_SPOKEN_PRONUNCIATIONS_EDIT
 ~~~
+\
+\
 _Accessibility > Audio Descriptions_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Descriptions
 ~~~
+\
+\
 _Accessibility > Hearing Devices_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Hearing
 ~~~
+\
+\
 _Accessibility > Audio_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Audio
 ~~~
+\
+\
 _Accessibility > RTT_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?RTT
 ~~~
+\
+\
 _Accessibility > Captions_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Captions
 ~~~
+\
+\
 _Accessibility > Live Captions_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?LiveCaptions
 ~~~
+\
+\
 _Accessibility > Name Recognition_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?NameRecognition
 ~~~
+\
+\
 _Accessibility > Voice Control_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?VoiceControl
@@ -387,6 +441,8 @@ _Accessibility > Voice Control > Vocabulary_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_VOICE_CONTROL_VOCABULARY
 ~~~
+\
+\
 _Accessibility > Keyboard_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Keyboard
@@ -407,6 +463,8 @@ _Accessibility > Keyboard > Accessibility Keyboard &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_KB_APPEARANCE_TYPE
 ~~~
+\
+\
 _Accessibility > Pointer Control_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?PointerControl
@@ -431,6 +489,8 @@ _Accessibility > Pointer Control > Head pointer_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_HEAD_MOUSE_BUTTON
 ~~~
+\
+\
 _Accessibility > Switch Control_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?SwitchControl
@@ -443,22 +503,32 @@ _Accessibility > Switch Control > Navigation Timing_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_NAVIGATION_TIMING
 ~~~
+\
+\
 _Accessibility > Live Speech_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?LiveSpeech
 ~~~
+\
+\
 _Accessibility > Personal Voice_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?PersonalVoice
 ~~~
+\
+\
 _Accessibility > Vocal Shortcuts_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?VocalShortcuts
 ~~~
+\
+\
 _Accessibility > Siri_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Siri
 ~~~
+\
+\
 _Accessibility > Shortcut_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Shortcut
