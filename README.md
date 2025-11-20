@@ -583,6 +583,10 @@ _Displays > Advanced <sub>(toggle "Show resolutions as list" etc)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Displays-Settings.extension?advancedSection
 ~~~
+_Displays > Night Shift_
+~~~yaml
+x-apple.systempreferences:com.apple.Displays-Settings.extension?nightShiftSection
+~~~
 \
 \
 _Spotlight_
@@ -612,6 +616,10 @@ x-apple.systempreferences:com.apple.Wallpaper-Settings.extension?ClockAppearance
 _Notifications_
 ~~~yaml
 x-apple.systempreferences:com.apple.Notifications-Settings.extension
+~~~
+_Notifications > Allow Notifications from iPhone_
+~~~yaml
+x-apple.systempreferences:com.apple.Notifications-Settings.extension?RemoteNotifications
 ~~~
 _Notifications > [app bundle identifier]_
 ~~~yaml
@@ -695,127 +703,135 @@ _Privacy & Security_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension
 ~~~
-_Privacy & Security > Privacy > Location Services_
+_Privacy & Security > Location Services_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_LocationServices
 ~~~
-_Privacy & Security > Privacy > Location Services > System Services_
+_Privacy & Security > Location Services > System Services_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_SystemServices
 ~~~
-_Privacy & Security > Privacy > Calendars_
+_Privacy & Security > Calendars_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Calendars
 ~~~
-_Privacy & Security > Privacy > Contacts_
+_Privacy & Security > Contacts_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Contacts
 ~~~
-_Privacy & Security > Privacy > Files & Folders_
+_Privacy & Security > Files & Folders_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_FilesAndFolders
 ~~~
-_Privacy & Security > Privacy > Full Disk Access_
+_Privacy & Security > Full Disk Access_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_AllFiles
 ~~~
-_Privacy & Security > Privacy > Home Accessories_
+_Privacy & Security > Home_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_HomeKit
 ~~~
-_Privacy & Security > Privacy > Passkeys Access for Web Browsers_
+_Privacy & Security > Media & Apple Music_
+~~~yaml
+x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Media
+~~~
+_Privacy & Security > Passkeys Access for Web Browsers_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_PasskeyAccess
 ~~~
-_Privacy & Security > Privacy > Photos_
+_Privacy & Security > Photos_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Photos
 ~~~
-_Privacy & Security > Privacy > Reminders_
+_Privacy & Security > Reminders_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Reminders
 ~~~
-_Privacy & Security > Privacy > Accessibility_
+_Privacy & Security > Accessibility_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Accessibility
 ~~~
-_Privacy & Security > Privacy > App Management_
+_Privacy & Security > App Management_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_AppBundles
 ~~~
-_Privacy & Security > Privacy > Automation_
+_Privacy & Security > Automation_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Automation
 ~~~
-_Privacy & Security > Privacy > Bluetooth_
+_Privacy & Security > Bluetooth_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Bluetooth
 ~~~
-_Privacy & Security > Privacy > Camera_
+_Privacy & Security > Camera_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Camera
 ~~~
-_Privacy & Security > Privacy > Developer Tools_
+_Privacy & Security > Developer Tools_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_DevTools
 ~~~
-_Privacy & Security > Privacy > Focus_
+_Privacy & Security > Focus_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Focus
 ~~~
-_Privacy & Security > Privacy > Input Monitoring_
+_Privacy & Security > Input Monitoring_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_ListenEvent
 ~~~
-_Privacy & Security > Privacy > Microphone_
+_Privacy & Security > Microphone_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Microphone
 ~~~
-_Privacy & Security > Privacy > Remote Desktop_
+_Privacy & Security > Remote Desktop_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_RemoteDesktop
 ~~~
-_Privacy & Security > Privacy > Screen & System Audio Recording_
+_Privacy & Security > Screen & System Audio Recording_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_AudioCapture
 ~~~
-_Privacy & Security > Privacy > Speech Recognition_
+_Privacy & Security > Speech Recognition_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_SpeechRecognition
 ~~~
-_Privacy & Security > Privacy > Sensitive Content Warning_
+_Privacy & Security > Sensitive Content Warning_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_NudityDetection
 ~~~
-_Privacy & Security > Privacy > Blocked Contacts_
+_Privacy & Security > Blocked Contacts_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Blocklist
 ~~~
-_Privacy & Security > Privacy > Analytics & Improvements_
+_Privacy & Security > Analytics & Improvements_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Analytics
 ~~~
-_Privacy & Security > Privacy > Apple Advertising_
+_Privacy & Security > Apple Advertising_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Advertising
 ~~~
-_Privacy & Security > Security (section)_
+_Privacy & Security > Gatekeeper <sub>(“Open Anyway” for apps from unidentified developers, “Allow applications from” settings etc)</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Security
 ~~~
-_Privacy & Security > Security > FileVault_
+_Privacy & Security > FileVault_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?FileVault
 ~~~
-_Privacy & Security > Security > Accessories_
+_Privacy & Security > Accessories_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Accessories
 ~~~
-_Privacy & Security > Security > Lockdown Mode_
+_Privacy & Security > Lockdown Mode_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?LockdownMode
 ~~~
-_Privacy & Security > Security > Advanced_
+_Privacy & Security > Background Security Improvements_
+~~~yaml
+x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?SecurityImprovements
+~~~
+_Privacy & Security > Advanced_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Advanced
 ~~~
