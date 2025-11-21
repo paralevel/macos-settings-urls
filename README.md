@@ -555,7 +555,7 @@ _Apple Intelligence & Siri > Siri Suggestions & Privacy_
 ~~~yaml
 x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions
 ~~~
-_Apple Intelligence & Siri > Siri Suggestions & Privacy > [app bundle identifier] <sub>(find it with e.g. `osascript -e 'id of app "Application Name"'`)</sub>_
+_Apple Intelligence & Siri > Siri Suggestions & Privacy > [app bundle identifier]_
 ~~~yaml
 x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions&bundleId=bundle_identifier
 ~~~
