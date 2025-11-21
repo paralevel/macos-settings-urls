@@ -651,7 +651,7 @@ _Screen Time_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension
 ~~~
-_Screen Time > App & Website Activity <sub>(if enabled)</sub>_
+_Screen Time > App & Website Activity <sup>if enabled</sup>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=app-usage
 ~~~
