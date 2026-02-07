@@ -151,7 +151,7 @@ _General > Software Update > Automatic Updates &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showAdvancedOptions
 ~~~
-_General > Software Update > Beta Updates &#X24D8; <sub>(some delay)</sub>_
+_General > Software Update > Beta Updates &#X24D8; <sub>some delay</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showBetaUpdates
 ~~~
@@ -579,7 +579,7 @@ _Displays_
 ~~~yaml
 x-apple.systempreferences:com.apple.Displays-Settings.extension
 ~~~
-_Displays > Advanced <sub>(toggle "Show resolutions as list" etc)</sub>_
+_Displays > Advanced_
 ~~~yaml
 x-apple.systempreferences:com.apple.Displays-Settings.extension?advancedSection
 ~~~
@@ -651,7 +651,7 @@ _Screen Time_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension
 ~~~
-_Screen Time > App & Website Activity <sup>If enabled</sup>_
+_Screen Time > App & Website Activity <sup>If App & Website Activity is enabled</sup>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=app-usage
 ~~~
@@ -811,7 +811,7 @@ _Privacy & Security > Apple Advertising_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Advertising
 ~~~
-_Privacy & Security > Gatekeeper <sub>(“Open Anyway” for apps from unidentified developers, “Allow applications from” settings etc)</sub>_
+_Privacy & Security > Gatekeeper_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Security
 ~~~
@@ -897,7 +897,7 @@ x-apple.systempreferences:com.apple.Game-Center-Settings?INVITE_FRIENDS
 ~~~
 \
 \
-_iCloud <sub>(see Apple Account > iCloud for more URLs)</sub>_
+_iCloud <sub>see Apple Account > iCloud for more URLs</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings:icloud
 ~~~
@@ -927,19 +927,59 @@ _Keyboard_
 ~~~yaml
 x-apple.systempreferences:com.apple.Keyboard-Settings.extension
 ~~~
-_Keyboard > Spotlight_
+_Keyboard > Keyboard Shortcuts_
+~~~yaml
+x-apple.systempreferences:com.apple.Keyboard-Settings.extension?Shortcuts
+~~~
+_Keyboard > Keyboard Shortcuts > Spotlight_
 ~~~yaml
 x-apple.systempreferences:com.apple.Keyboard-Settings.extension?Spotlight
 ~~~
-_Keyboard > Function keys_
+_Keyboard > Keyboard Shortcuts > Function keys_
 ~~~yaml
 x-apple.systempreferences:com.apple.Keyboard-Settings.extension?FunctionKeys
 ~~~
-_Keyboard > Modifier keys_
+_Keyboard > Keyboard Shortcuts > Modifier keys_
 ~~~yaml
 x-apple.systempreferences:com.apple.Keyboard-Settings.extension?ModifierKeys
 ~~~
-_Keyboard > Text Input > Edit <sub>(set smart quotes, smart dashes, spell checking, auto-correction etc)</sub>_
+_Keyboard > Text Input > Edit_
+~~~yaml
+x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
+~~~
+_Keyboard > Text Input > Edit > All Input Sources > Show Input menu in menubar (switch)_
+~~~yaml
+x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
+~~~
+_Keyboard > Text Input > Edit > All Input Sources > Correct spelling automatically (switch)_
+~~~yaml
+x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
+~~~
+_Keyboard > Text Input > Edit > All Input Sources > Capitalize words automatically (switch)_
+~~~yaml
+x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
+~~~
+_Keyboard > Text Input > Edit > All Input Sources > Show inline predictive text (switch)_
+~~~yaml
+x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
+~~~
+_Keyboard > Text Input > Edit > All Input Sources > Add period with double-space (switch)_
+~~~yaml
+x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
+~~~
+_Keyboard > Text Input > Edit > All Input Sources > Spelling (dropdown menu)_
+~~~yaml
+x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
+~~~
+_Keyboard > Text Input > Edit > All Input Sources > Use smart quotes and dashes (switch)_
+~~~yaml
+x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
+~~~
+_Keyboard > Text Input > Edit > All Input Sources > For double-quotes (dropdown menu)_
+~~~yaml
+x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
+~~~
+_Keyboard > Text Input > Edit > All Input Sources > For single-quotes (dropdown menu)_
 ~~~yaml
 x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
 ~~~
