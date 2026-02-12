@@ -33,13 +33,37 @@ _Apple Account > iCloud > Manage > Manage Storage > Backups_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP
 ~~~
-_Apple Account > iCloud > Manage > Manage Storage > Change Storage Plan_
-~~~yaml
-x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?path=STORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN
-~~~
 _Apple Account > iCloud > See All > Saved to iCloud_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/SHOW_ALL_APPS
+~~~
+_Apple Account > iCloud > See All > Saved to iCloud > Find My Mac_
+~~~yaml
+x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE&dataclassId=com.apple.Dataclass.DeviceLocator
+~~~
+_Apple Account > iCloud > Photos_
+~~~yaml
+x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE&dataclassId=com.apple.Dataclass.CloudPhotos
+~~~
+_Apple Account > iCloud > Drive_
+~~~yaml
+x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE&dataclassId=com.apple.Dataclass.Ubiquity
+~~~
+_Apple Account > iCloud > Passwords_
+~~~yaml
+x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE&dataclassId=com.apple.Dataclass.KeychainSync
+~~~
+_Apple Account > iCloud > Notes_
+~~~yaml
+x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE&dataclassId=com.apple.Dataclass.Notes
+~~~
+_Apple Account > iCloud > Messages_
+~~~yaml
+x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE&dataclassId=com.apple.Dataclass.Messages
+~~~
+_Apple Account > iCloud > Mail_
+~~~yaml
+x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE&dataclassId=com.apple.Dataclass.Mail
 ~~~
 _Apple Account > iCloud > Private Relay_
 ~~~yaml
