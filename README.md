@@ -241,23 +241,51 @@ _General > Login Items & Extensions > Extensions (section)_
 ~~~yaml
 x-apple.systempreferences:com.apple.LoginItems-Settings.extension?ExtensionItems
 ~~~
-_General > Login Items & Extensions > Extensions > File Providers &#X24D8;_
+_General > Login Items & Extensions > Extensions > By App > Books &#X24D8;_
 ~~~yaml
-x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.fileprovider-nonui
+x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/System/Applications/Books.app
 ~~~
-_General > Login Items & Extensions > Extensions > File System Extensions &#X24D8;_
+_General > Login Items & Extensions > Extensions > By App > Freeform &#X24D8;_
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/System/Applications/Freeform.app
+~~~
+_General > Login Items & Extensions > Extensions > By App > Journal &#X24D8;_
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/System/Applications/Journal.app
+~~~
+_General > Login Items & Extensions > Extensions > By App > Messages &#X24D8;_
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/System/Applications/Messages.app
+~~~
+_General > Login Items & Extensions > Extensions > By App > Notes &#X24D8;_
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/System/Applications/Notes.app
+~~~
+_General > Login Items & Extensions > Extensions > By App > Reminders &#X24D8;_
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/System/Applications/Reminders.app
+~~~
+_General > Login Items & Extensions > Extensions > By App > Shortcuts &#X24D8;_
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/System/Applications/Shortcuts.app
+~~~
+_General > Login Items & Extensions > Extensions > By App > [path to application] &#X24D8;_
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/path/to/name_of_application.app
+~~~
+_General > Login Items & Extensions > Extensions > By Category > File System Extensions &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.fskit.fsmodule
 ~~~
-_General > Login Items & Extensions > Extensions > Finder &#X24D8;_
+_General > Login Items & Extensions > Extensions > By Category > Finder &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.finder-quick-actions
 ~~~
-_General > Login Items & Extensions > Extensions > Network &#X24D8;_
+_General > Login Items & Extensions > Extensions > By Category > Network &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.system_extension.network_extension.extension-point
 ~~~
-_General > Login Items & Extensions > Extensions > Sharing &#X24D8;_
+_General > Login Items & Extensions > Extensions > By Category > Sharing &#X24D8;_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.share-services
 ~~~
