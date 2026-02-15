@@ -145,7 +145,7 @@ _Battery_
 ~~~yaml
 x-apple.systempreferences:com.apple.Battery-Settings.extension
 ~~~
-_Battery > Battery Health &#X24D8;_
+_Battery > Battery Health_
 ~~~yaml
 x-apple.systempreferences:com.apple.Battery-Settings.extension?batteryhealth
 ~~~
@@ -171,7 +171,7 @@ _General > Software Update_
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension
 ~~~
-_General > Software Update > Automatic Updates &#X24D8;_
+_General > Software Update > Automatic Updates_
 ~~~yaml
 x-apple.systempreferences:com.apple.Software-Update-Settings.extension?action=showAdvancedOptions
 ~~~
@@ -241,51 +241,51 @@ _General > Login Items & Extensions > Extensions (section)_
 ~~~yaml
 x-apple.systempreferences:com.apple.LoginItems-Settings.extension?ExtensionItems
 ~~~
-_General > Login Items & Extensions > Extensions > By App > Books &#X24D8;_
+_General > Login Items & Extensions > Extensions > By App > Books_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/System/Applications/Books.app
 ~~~
-_General > Login Items & Extensions > Extensions > By App > Freeform &#X24D8;_
+_General > Login Items & Extensions > Extensions > By App > Freeform_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/System/Applications/Freeform.app
 ~~~
-_General > Login Items & Extensions > Extensions > By App > Journal &#X24D8;_
+_General > Login Items & Extensions > Extensions > By App > Journal_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/System/Applications/Journal.app
 ~~~
-_General > Login Items & Extensions > Extensions > By App > Messages &#X24D8;_
+_General > Login Items & Extensions > Extensions > By App > Messages_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/System/Applications/Messages.app
 ~~~
-_General > Login Items & Extensions > Extensions > By App > Notes &#X24D8;_
+_General > Login Items & Extensions > Extensions > By App > Notes_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/System/Applications/Notes.app
 ~~~
-_General > Login Items & Extensions > Extensions > By App > Reminders &#X24D8;_
+_General > Login Items & Extensions > Extensions > By App > Reminders_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/System/Applications/Reminders.app
 ~~~
-_General > Login Items & Extensions > Extensions > By App > Shortcuts &#X24D8;_
+_General > Login Items & Extensions > Extensions > By App > Shortcuts_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/System/Applications/Shortcuts.app
 ~~~
-_General > Login Items & Extensions > Extensions > By App > [path to application] &#X24D8;_
+_General > Login Items & Extensions > Extensions > By App > [file system path of application, e.g. /Applications/Name of App.app]_
 ~~~yaml
-x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=/path/to/name_of_application.app
+x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=replace_with_path_of_app
 ~~~
-_General > Login Items & Extensions > Extensions > By Category > File System Extensions &#X24D8;_
+_General > Login Items & Extensions > Extensions > By Category > File System Extensions_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.fskit.fsmodule
 ~~~
-_General > Login Items & Extensions > Extensions > By Category > Finder &#X24D8;_
+_General > Login Items & Extensions > Extensions > By Category > Finder_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.finder-quick-actions
 ~~~
-_General > Login Items & Extensions > Extensions > By Category > Network &#X24D8;_
+_General > Login Items & Extensions > Extensions > By Category > Network_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.system_extension.network_extension.extension-point
 ~~~
-_General > Login Items & Extensions > Extensions > By Category > Sharing &#X24D8;_
+_General > Login Items & Extensions > Extensions > By Category > Sharing_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.share-services
 ~~~
@@ -295,27 +295,27 @@ _General > Sharing_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension
 ~~~
-_General > Sharing > Content & Media > Screen Sharing &#X24D8;_
+_General > Sharing > Content & Media > Screen Sharing_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_ScreenSharing
 ~~~
-_General > Sharing > Accessories & Internet > Printer Sharing &#X24D8;_
+_General > Sharing > Accessories & Internet > Printer Sharing_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_PrinterSharing
 ~~~
-_General > Sharing > Accessories & Internet > Internet Sharing &#X24D8;_
+_General > Sharing > Accessories & Internet > Internet Sharing_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Internet
 ~~~
-_General > Sharing > Advanced > Remote Management &#X24D8;_
+_General > Sharing > Advanced > Remote Management_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_ARDService
 ~~~
-_General > Sharing > Advanced > Remote Login &#X24D8;_
+_General > Sharing > Advanced > Remote Login_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_RemoteLogin
 ~~~
-_General > Sharing > Advanced > Remote Application Scripting &#X24D8;_
+_General > Sharing > Advanced > Remote Application Scripting_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sharing-Settings.extension?Services_RemoteAppleEvent
 ~~~
@@ -383,11 +383,11 @@ _Accessibility > Hover Text_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?HoverText
 ~~~
-_Accessibility > Hover Text > Hover Text &#X24D8;_
+_Accessibility > Hover Text > Hover Text_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?hoverTextSettings
 ~~~
-_Accessibility > Hover Text > Hover Typing &#X24D8;_
+_Accessibility > Hover Text > Hover Typing_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?hoverTypingSettings
 ~~~
@@ -413,23 +413,23 @@ _Accessibility > Read & Speak_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?SpokenContent
 ~~~
-_Accessibility > Read & Speak > Speak selection &#X24D8;_
+_Accessibility > Read & Speak > Speak selection_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_SPOKEN_SELECTION_SHOW_CONTROLLER
 ~~~
-_Accessibility > Read & Speak > Speak item under the pointer &#X24D8;_
+_Accessibility > Read & Speak > Speak item under the pointer_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_SPOKEN_POINTER_ELEMENT_MODE
 ~~~
-_Accessibility > Read & Speak > Speak announcements &#X24D8;_
+_Accessibility > Read & Speak > Speak announcements_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_SPEECH_TEST
 ~~~
-_Accessibility > Read & Speak > Speak typing feedback &#X24D8;_
+_Accessibility > Read & Speak > Speak typing feedback_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_SPOKEN_TYPING_ECHO_CHARS
 ~~~
-_Accessibility > Read & Speak > Pronunciations &#X24D8;_
+_Accessibility > Read & Speak > Pronunciations_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_SPOKEN_PRONUNCIATIONS_EDIT
 ~~~
@@ -495,19 +495,19 @@ _Accessibility > Keyboard_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?Keyboard
 ~~~
-_Accessibility > Keyboard > Full Keyboard Access &#X24D8;_
+_Accessibility > Keyboard > Full Keyboard Access_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?fullKeyboardAccessOptions
 ~~~
-_Accessibility > Keyboard > Sticky Keys &#X24D8;_
+_Accessibility > Keyboard > Sticky Keys_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_STICKY_KEYS_BEEP
 ~~~
-_Accessibility > Keyboard > Slow Keys &#X24D8;_
+_Accessibility > Keyboard > Slow Keys_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?slowKeysOptions
 ~~~
-_Accessibility > Keyboard > Accessibility Keyboard &#X24D8;_
+_Accessibility > Keyboard > Accessibility Keyboard_
 ~~~yaml
 x-apple.systempreferences:com.apple.Accessibility-Settings.extension?AX_KB_APPEARANCE_TYPE
 ~~~
@@ -607,9 +607,9 @@ _Apple Intelligence & Siri > Siri Suggestions & Privacy_
 ~~~yaml
 x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions
 ~~~
-_Apple Intelligence & Siri > Siri Suggestions & Privacy > [app bundle identifier]_
+_Apple Intelligence & Siri > Siri Suggestions & Privacy > [app's bundle ID]_
 ~~~yaml
-x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions&bundleId=bundle_identifier
+x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions&bundleId=replace_with_app_bundle_id
 ~~~
 \
 \
@@ -673,9 +673,9 @@ _Notifications > Allow Notifications from iPhone_
 ~~~yaml
 x-apple.systempreferences:com.apple.Notifications-Settings.extension?RemoteNotifications
 ~~~
-_Notifications > [app bundle identifier]_
+_Notifications > [app's bundle ID]_
 ~~~yaml
-x-apple.systempreferences:com.apple.Notifications-Settings.extension?id=bundle_identifier
+x-apple.systempreferences:com.apple.Notifications-Settings.extension?id=replace_with_app_bundle_id
 ~~~
 \
 \
@@ -899,7 +899,7 @@ _Users & Groups_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension
 ~~~
-_Users & Groups > [current user] &#X24D8;_
+_Users & Groups > [current user]_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo
 ~~~
@@ -907,11 +907,11 @@ _Users & Groups > [current user] > Password > Change_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?changepassword
 ~~~
-_Users & Groups > [name of user] &#X24D8;_
+_Users & Groups > [name of user]_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:full_name_or_short_name
 ~~~
-_Users & Groups > Guest User &#X24D8;_
+_Users & Groups > Guest User_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:guest
 ~~~
