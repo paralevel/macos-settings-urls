@@ -65,11 +65,11 @@ _Apple Account > iCloud > Mail_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE&dataclassId=com.apple.Dataclass.Mail
 ~~~
-_Apple Account > iCloud > Private Relay_
+_Apple Account > iCloud > iCloud+ Features > Private Relay_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/accountDetails?path=InternetPrivacy
 ~~~
-_Apple Account > iCloud > Hide My Email_
+_Apple Account > iCloud > iCloud+ Features > Hide My Email_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE
 ~~~
