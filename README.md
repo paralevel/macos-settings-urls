@@ -979,10 +979,6 @@ _Keyboard_
 ~~~yaml
 x-apple.systempreferences:com.apple.Keyboard-Settings.extension
 ~~~
-_Keyboard > Keyboard Shortcuts_
-~~~yaml
-x-apple.systempreferences:com.apple.Keyboard-Settings.extension?Shortcuts
-~~~
 _Keyboard > Keyboard Shortcuts > Spotlight_
 ~~~yaml
 x-apple.systempreferences:com.apple.Keyboard-Settings.extension?Spotlight
@@ -996,42 +992,6 @@ _Keyboard > Keyboard Shortcuts > Modifier keys_
 x-apple.systempreferences:com.apple.Keyboard-Settings.extension?ModifierKeys
 ~~~
 _Keyboard > Text Input > Edit_
-~~~yaml
-x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
-~~~
-_Keyboard > Text Input > Edit > All Input Sources > Show Input menu in menubar (switch)_
-~~~yaml
-x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
-~~~
-_Keyboard > Text Input > Edit > All Input Sources > Correct spelling automatically (switch)_
-~~~yaml
-x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
-~~~
-_Keyboard > Text Input > Edit > All Input Sources > Capitalize words automatically (switch)_
-~~~yaml
-x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
-~~~
-_Keyboard > Text Input > Edit > All Input Sources > Show inline predictive text (switch)_
-~~~yaml
-x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
-~~~
-_Keyboard > Text Input > Edit > All Input Sources > Add period with double-space (switch)_
-~~~yaml
-x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
-~~~
-_Keyboard > Text Input > Edit > All Input Sources > Spelling (dropdown menu)_
-~~~yaml
-x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
-~~~
-_Keyboard > Text Input > Edit > All Input Sources > Use smart quotes and dashes (switch)_
-~~~yaml
-x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
-~~~
-_Keyboard > Text Input > Edit > All Input Sources > For double-quotes (dropdown menu)_
-~~~yaml
-x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
-~~~
-_Keyboard > Text Input > Edit > All Input Sources > For single-quotes (dropdown menu)_
 ~~~yaml
 x-apple.systempreferences:com.apple.Keyboard-Settings.extension?InputSources
 ~~~
