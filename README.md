@@ -907,9 +907,9 @@ _Users & Groups > [current user] > Password > Change_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?changepassword
 ~~~
-_Users & Groups > [name of user]_
+_Users & Groups > [full user name or user's home directory name]_
 ~~~yaml
-x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:full_name_or_short_name
+x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:replace_with_full_name_or_short_name_of_user
 ~~~
 _Users & Groups > Guest User_
 ~~~yaml
