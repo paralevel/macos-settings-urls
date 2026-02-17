@@ -909,7 +909,7 @@ x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?changepasswo
 ~~~
 _Users & Groups > [full user name or user's home directory name]_
 ~~~yaml
-x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:replace_with_full_name_or_short_name_of_user
+x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:replace_with_full_or_short_name_of_user
 ~~~
 _Users & Groups > Guest User_
 ~~~yaml
