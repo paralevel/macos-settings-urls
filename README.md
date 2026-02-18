@@ -907,7 +907,7 @@ _Users & Groups > [current user] > Password > Change_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?changepassword
 ~~~
-_Users & Groups > [full user name or user's home directory name]_
+_Users & Groups > [full name of user or name of user's home folder]_
 ~~~yaml
 x-apple.systempreferences:com.apple.Users-Groups-Settings.extension?showinfo*user:replace_with_full_or_short_name_of_user
 ~~~
