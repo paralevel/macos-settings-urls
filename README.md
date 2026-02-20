@@ -607,7 +607,7 @@ _Apple Intelligence & Siri > Siri Suggestions & Privacy_
 ~~~yaml
 x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions
 ~~~
-_Apple Intelligence & Siri > Siri Suggestions & Privacy > [app's bundle ID]_
+_Apple Intelligence & Siri > Siri Suggestions & Privacy > [bundle ID of app]_
 ~~~yaml
 x-apple.systempreferences:com.apple.Siri-Settings.extension?siriSuggestions&bundleId=replace_with_app_bundle_id
 ~~~
@@ -673,7 +673,7 @@ _Notifications > Allow Notifications from iPhone_
 ~~~yaml
 x-apple.systempreferences:com.apple.Notifications-Settings.extension?RemoteNotifications
 ~~~
-_Notifications > [app's bundle ID]_
+_Notifications > [bundle ID of app]_
 ~~~yaml
 x-apple.systempreferences:com.apple.Notifications-Settings.extension?id=replace_with_app_bundle_id
 ~~~
