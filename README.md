@@ -703,23 +703,23 @@ _Screen Time_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension
 ~~~
-_Screen Time > App & Website Activity <sup>If __App & Website Activity__ is enabled</sup>_
+_Screen Time > App & Website Activity <sub>when App & Website Activity is enabled</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=app-usage
 ~~~
-_Screen Time > Notifications <sup>If __App & Website Activity__ is enabled</sup>_
+_Screen Time > Notifications <sub>when App & Website Activity is enabled</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=notifications
 ~~~
-_Screen Time > Pickups <sup>If __App & Website Activity__ is enabled</sup>_
+_Screen Time > Pickups <sub>when App & Website Activity is enabled</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=pickups
 ~~~
-_Screen Time > Downtime <sup>If __App & Website Activity__ is enabled</sup>_
+_Screen Time > Downtime <sub>when App & Website Activity is enabled</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=downtime
 ~~~
-_Screen Time > App Limits <sup>If __App & Website Activity__ is enabled</sup>_
+_Screen Time > App Limits <sub>when App & Website Activity is enabled</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.Screen-Time-Settings.extension?path=app-limits
 ~~~
@@ -949,7 +949,7 @@ x-apple.systempreferences:com.apple.Game-Center-Settings?INVITE_FRIENDS
 ~~~
 \
 \
-_iCloud <sub>see Apple Account > iCloud for more URLs</sub>_
+_iCloud <sub>for more URLs, see Apple Account > iCloud</sub>_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings:icloud
 ~~~
