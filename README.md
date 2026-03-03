@@ -87,6 +87,16 @@ x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings?signInWith
 ~~~
 \
 \
+_Family_
+~~~yaml
+x-apple.systempreferences:com.apple.Family-Settings.extension
+~~~
+_Family > Subscriptions_
+~~~yaml
+x-apple.systempreferences:com.apple.Family-Settings.extension?familyPath=/subscriptions
+~~~
+\
+\
 _Wi-Fi_
 ~~~yaml
 x-apple.systempreferences:com.apple.wifi-settings-extension
@@ -835,6 +845,10 @@ _Privacy & Security > Microphone_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Microphone
 ~~~
+_Privacy & Security > Motion & Fitness_
+~~~yaml
+x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Motion
+~~~
 _Privacy & Security > Remote Desktop_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_RemoteDesktop
@@ -862,6 +876,10 @@ x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_A
 _Privacy & Security > Apple Advertising_
 ~~~yaml
 x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_Advertising
+~~~
+_Privacy & Security > Apple Intelligence Report_
+~~~yaml
+x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_AppleIntelligenceReport
 ~~~
 _Privacy & Security > Gatekeeper_
 ~~~yaml
