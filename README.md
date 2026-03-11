@@ -1,6 +1,10 @@
 # Settings URL schemes for macOS 26 Tahoe
 
-\
+<sup>_Disclaimer: Although there are [similar projects](https://gist.github.com/rmcdongit/f66ff91e0dad78d4d6346a75ded4b751), this is a collection consisting exclusively of URLs I've found (or often pieced together) personally by examining local system files_</sup>
+
+<br>
+<br>
+
 _Apple Account_
 ~~~yaml
 x-apple.systempreferences:com.apple.systempreferences.AppleIDSettings
