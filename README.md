@@ -255,17 +255,9 @@ _General > Login Items & Extensions > Extensions > By App > [file system path of
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=replace_with_path_of_app
 ~~~
-_General > Login Items & Extensions > Extensions > By Category > File System Extensions_
-~~~yaml
-x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.fskit.fsmodule
-~~~
 _General > Login Items & Extensions > Extensions > By Category > Finder_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.finder-quick-actions
-~~~
-_General > Login Items & Extensions > Extensions > By Category > Network_
-~~~yaml
-x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.system_extension.network_extension.extension-point
 ~~~
 _General > Login Items & Extensions > Extensions > By Category > Sharing_
 ~~~yaml
