@@ -121,34 +121,6 @@ _Network_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension
 ~~~
-_Network > [current network] > TCP/IP_
-~~~yaml
-x-apple.systempreferences:com.apple.Network-Settings.extension?TCP/IP
-~~~
-_Network > [current network] > DNS_
-~~~yaml
-x-apple.systempreferences:com.apple.Network-Settings.extension?DNS
-~~~
-_Network > [current network] > WINS_
-~~~yaml
-x-apple.systempreferences:com.apple.Network-Settings.extension?WINS
-~~~
-_Network > [current network] > 802.1X_
-~~~yaml
-x-apple.systempreferences:com.apple.Network-Settings.extension?802.1X
-~~~
-_Network > [current network] > Proxies_
-~~~yaml
-x-apple.systempreferences:com.apple.Network-Settings.extension?Proxies
-~~~
-_Network > [current network] > Hardware_
-~~~yaml
-x-apple.systempreferences:com.apple.Network-Settings.extension?Hardware
-~~~
-_Network > Other Services > Thunderbolt Bridge_
-~~~yaml
-x-apple.systempreferences:com.apple.Network-Settings.extension?Bridge
-~~~
 \
 \
 _Battery_
