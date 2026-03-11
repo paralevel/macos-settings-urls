@@ -613,10 +613,6 @@ _Displays_
 ~~~yaml
 x-apple.systempreferences:com.apple.Displays-Settings.extension
 ~~~
-_Displays > Advanced_
-~~~yaml
-x-apple.systempreferences:com.apple.Displays-Settings.extension?advancedSection
-~~~
 _Displays > Night Shift_
 ~~~yaml
 x-apple.systempreferences:com.apple.Displays-Settings.extension?nightShiftSection
