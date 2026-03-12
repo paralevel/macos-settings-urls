@@ -1,6 +1,6 @@
 # Settings URL schemes for macOS 26 Tahoe
 
-<sup>_Disclaimer: This is a collection consisting exclusively of URLs I've found, or often pieced together, myself by examining local system files, and not built on, or meant to compete with, similar, already existing projects [1)](https://gist.github.com/rmcdongit/f66ff91e0dad78d4d6346a75ded4b751)_</sup>
+<sup>_Disclaimer: This is a collection consisting exclusively of URLs I've found, or often pieced together, myself by examining local system files, and not built on, or meant to compete with, similar, already existing projects [1](https://gist.github.com/rmcdongit/f66ff91e0dad78d4d6346a75ded4b751)_</sup>
 
 <br>
 <br>
@@ -124,6 +124,30 @@ x-apple.systempreferences:com.apple.BluetoothSettings
 _Network_
 ~~~yaml
 x-apple.systempreferences:com.apple.Network-Settings.extension
+~~~
+_Network > [current network] > TCP/IP_
+~~~yaml
+x-apple.systempreferences:com.apple.Network-Settings.extension?TCP/IP
+~~~
+_Network > [current network] > DNS_
+~~~yaml
+x-apple.systempreferences:com.apple.Network-Settings.extension?DNS
+~~~
+_Network > [current network] > WINS_
+~~~yaml
+x-apple.systempreferences:com.apple.Network-Settings.extension?WINS
+~~~
+_Network > [current network] > 802.1X_
+~~~yaml
+x-apple.systempreferences:com.apple.Network-Settings.extension?802.1X
+~~~
+_Network > [current network] > Proxies <sub>some delay</sub>_
+~~~yaml
+x-apple.systempreferences:com.apple.Network-Settings.extension?Proxies
+~~~
+_Network > [current network] > Hardware <sub>some delay</sub>_
+~~~yaml
+x-apple.systempreferences:com.apple.Network-Settings.extension?Hardware
 ~~~
 \
 \
@@ -259,9 +283,29 @@ _General > Login Items & Extensions > Extensions > By App > [file system path of
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?applicationPath=replace_with_path_of_app
 ~~~
+_General > Login Items & Extensions > Extensions > By Category > Actions_
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.ui-services
+~~~
+_General > Login Items & Extensions > Extensions > By Category > File Providers_
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.fileprovider-nonui
+~~~
+_General > Login Items & Extensions > Extensions > By Category > File System Extensions_
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.fskit.fsmodule
+~~~
 _General > Login Items & Extensions > Extensions > By Category > Finder_
 ~~~yaml
 x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.finder-quick-actions
+~~~
+_General > Login Items & Extensions > Extensions > By Category > Network_
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.networkextension.app-proxy
+~~~
+_General > Login Items & Extensions > Extensions > By Category > Photos Editing_
+~~~yaml
+x-apple.systempreferences:com.apple.ExtensionsPreferences?extensionPointIdentifier=com.apple.photo-editing
 ~~~
 _General > Login Items & Extensions > Extensions > By Category > Sharing_
 ~~~yaml
@@ -608,6 +652,10 @@ x-apple.systempreferences:com.apple.Desktop-Settings.extension?Shortcuts
 _Displays_
 ~~~yaml
 x-apple.systempreferences:com.apple.Displays-Settings.extension
+~~~
+_Displays > Advanced_
+~~~yaml
+x-apple.systempreferences:com.apple.Displays-Settings.extension?advancedSection
 ~~~
 _Displays > Night Shift_
 ~~~yaml
