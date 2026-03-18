@@ -9,8 +9,4 @@
 
 ## Reporting a Vulnerability
 
-To report a security vulnerability in this repository please go to:
-
-https://github.com/paralevel/macos-settings-urls/issues
-
-You can expect a response within 3 business days of the report.
+To report a security vulnerability in this repository please use the ___Report a vulnerability___ button. You can expect a response within 3 business days of the report.
