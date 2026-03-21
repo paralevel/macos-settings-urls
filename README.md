@@ -999,7 +999,7 @@ x-apple.systempreferences:com.apple.WalletSettingsExtension?autoFillPane
 ~~~
 \
 \
-_AirPods_
+_AirPods [the name of your AirPods] <sub>append ‘?’ followed by the MAC address of the AirPods in case you have more than one set connected_
 ~~~yaml
 x-apple.systempreferences:com.apple.HeadphoneSettings
 ~~~
