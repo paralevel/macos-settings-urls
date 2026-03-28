@@ -1,7 +1,10 @@
 # Settings URL schemes for macOS 26 Tahoe
 
-<sup>_Disclaimer: This collection only includes URLs I have been able to find or reverse engineer myself, using data extracted from local system files only, and not URLs copied from other online sources_</sup>
+<br>
 
+<sup>_Disclaimer: This collection only includes URLs I have been able to find or reverse engineer myself, using data extracted from local system files, and not URLs copied from other online sources_</sup>
+
+<br>
 <br>
 
 _Apple Account_
