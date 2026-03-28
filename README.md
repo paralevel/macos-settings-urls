@@ -1,6 +1,10 @@
 # Settings URL schemes for macOS 26 Tahoe
 
-<sup>_Disclaimer: This is a collection consisting exclusively of URLs I've found (or often pieced together) by examining local system files, and not built on, or intended to replace, [similar](https://gist.github.com/rmcdongit/f66ff91e0dad78d4d6346a75ded4b751) already exisiting projects_</sup>
+(see also: https://gist.github.com/rmcdongit/f66ff91e0dad78d4d6346a75ded4b751)
+
+<br>
+
+<sup>_Disclaimer: This collection only includes URLs I have found, or often reverse engineered, using data extracted from local system files, and no URLs that were copied from other sources_</sup>
 
 <br>
 <br>
