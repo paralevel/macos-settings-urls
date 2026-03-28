@@ -4,7 +4,7 @@
 
 <br>
 
-<sup>_Disclaimer: This collection only includes URLs I have found, or often reverse engineered, using data extracted from local system files, and no URLs that were copied from other sources_</sup>
+<sup>_Disclaimer: This collection only includes URLs I have been able to find, or often reverse engineer, using data extracted from local system files, and no URLs that were copied from other online sources_</sup>
 
 <br>
 <br>
