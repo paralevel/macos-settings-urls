@@ -2,9 +2,7 @@
 
 <br>
 
-<sup>_Credit: https://www.w3.org/People/Berners-Lee/ • https://www.apple.com_</sup>
-
-<sup>_Disclaimer: This collection only includes URLs I have been able to find or reverse engineer myself, using data extracted from local system files, and not URLs copied from other online sources_</sup>
+<sup>_Disclaimer: This collection only includes URLs I have been able to find or reverse engineer myself, using data extracted from local system files, and not URLs that have been copied from outside sources_</sup>
 
 <br>
 <br>
@@ -243,15 +241,15 @@ _General > Login Items & Extensions_
 ~~~yaml
 x-apple.systempreferences:com.apple.LoginItems-Settings.extension
 ~~~
-_General > Login Items & Extensions > Open at Login (section)_
+_General > Login Items & Extensions > Open at Login [section]_
 ~~~yaml
 x-apple.systempreferences:com.apple.LoginItems-Settings.extension?UserItems
 ~~~
-_General > Login Items & Extensions > App Background Activity (section)_
+_General > Login Items & Extensions > App Background Activity [section]_
 ~~~yaml
 x-apple.systempreferences:com.apple.LoginItems-Settings.extension?BackgroundItems
 ~~~
-_General > Login Items & Extensions > Extensions (section)_
+_General > Login Items & Extensions > Extensions [section]_
 ~~~yaml
 x-apple.systempreferences:com.apple.LoginItems-Settings.extension?ExtensionItems
 ~~~
@@ -709,11 +707,11 @@ _Sound_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sound-Settings.extension
 ~~~
-_Sound > Output (tab)_
+_Sound > Output [tab]_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sound-Settings.extension?output
 ~~~
-_Sound > Input (tab)_
+_Sound > Input [tab]_
 ~~~yaml
 x-apple.systempreferences:com.apple.Sound-Settings.extension?input
 ~~~
@@ -1039,15 +1037,15 @@ _Trackpad_
 ~~~yaml
 x-apple.systempreferences:com.apple.Trackpad-Settings.extension
 ~~~
-_Trackpad > Point & Click (tab)_
+_Trackpad > Point & Click [tab]_
 ~~~yaml
 x-apple.systempreferences:com.apple.Trackpad-Settings.extension?PointAndClick
 ~~~
-_Trackpad > Scroll & Zoom (tab)_
+_Trackpad > Scroll & Zoom [tab]_
 ~~~yaml
 x-apple.systempreferences:com.apple.Trackpad-Settings.extension?ScrollAndZoom
 ~~~
-_Trackpad > More Gestures (tab)_
+_Trackpad > More Gestures [tab]_
 ~~~yaml
 x-apple.systempreferences:com.apple.Trackpad-Settings.extension?MoreGestures
 ~~~
