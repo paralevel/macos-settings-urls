@@ -982,6 +982,10 @@ _Touch ID & Password_
 ~~~csv
 x-apple.systempreferences:com.apple.Touch-ID-Settings.extension
 ~~~
+_Touch ID & Password › Add Fingerprint_
+~~~csv
+x-apple.systempreferences:com.apple.preferences.password?showEnrollmentUIAndEnroll
+~~~
 
 <br>
 
