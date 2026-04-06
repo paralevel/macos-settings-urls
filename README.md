@@ -2,7 +2,7 @@
 
 <br>
 
-<sup>_Disclaimer: This collection only includes URLs I have been able to find or reverse engineer myself, using data extracted from local system files, and not URLs that have been copied from outside sources_</sup>
+<sup>_Disclaimer: Consists only of URLs I personally have been able to find (or reverse engineer) using data extracted from local system files_</sup>
 
 <br>
 <br>
