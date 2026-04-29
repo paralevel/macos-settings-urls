@@ -1,16 +1,7 @@
 # Security Policy
 
 ## Supported Versions
-
-| Version | Supported          |
-| ------- | ------------------ |
-| r26   | :white_check_mark: |
-| < r26   | :x:                |
-
+The version that’s currently in active development
+##
 ## Reporting a Vulnerability
-
-Security vulnerabilities in this repository can be reported here:
-
-https://github.com/paralevel/macos-settings-urls/issues
-
-https://github.com/paralevel/macos-settings-urls/security/advisories/new
+Vulnerabilities can be reported [here](mailto:paralevel@duck.com)
