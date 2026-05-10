@@ -1,7 +1,5 @@
 # Security Policy
 
-### Supported versions
-The only supported version is whichever version is currently the latest
-###
-### Reporting a vulnerability
-Vulnerabilities can be reported [here](mailto:paralevel@duck.com)
+__Supported versions__: The version that at all times is the latest
+
+__How to report a vulnerability__: [Send an email](mailto:paralevel@duck.com)
