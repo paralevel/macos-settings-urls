@@ -2,7 +2,7 @@
 
 <br>
 
-<sup>_Disclaimer: Consists only of URLs I personally have been able to find (or reverse engineer) using data extracted from local system files_</sup>
+<sup>_Disclaimer: Unless otherwise stated, consists only of URLs I've either found/reverse engineered by going through local system files or Apple’s online documentation_</sup>
 
 <br>
 <br>
