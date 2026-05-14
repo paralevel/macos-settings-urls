@@ -2,7 +2,7 @@
 
 <br>
 
-<sup>_Disclaimer: Unless otherwise stated, consists only of URLs I've either found/reverse engineered by going through local system files or Apple’s online documentation_</sup>
+<sup>_Disclaimer: Unless otherwise stated, contains only URLs I’ve found (or reverse engineered) by examining local system files, and additionally some URLs from Apple’s online documentation_</sup>
 
 <br>
 <br>
